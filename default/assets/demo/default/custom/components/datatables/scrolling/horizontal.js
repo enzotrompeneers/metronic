@@ -11,6 +11,7 @@ var DefaultDatatableDemo = function () {
 				type: 'remote',
 				source: {
 					read: {
+						// json file with all the data
 						url: 'http://keenthemes.com/metronic/preview/inc/api/datatables/demos/default.php'
 					}
 				},

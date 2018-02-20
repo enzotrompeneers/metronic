@@ -1,3 +1,6 @@
+
+
+
 //== Class definition
 var GoogleMapsDemo = function() {
 

@@ -39,6 +39,17 @@ $table-inverse-color:           $body-bg !default;
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ /* START: custom css */
+ .big-icon {
+   font-size: 30px !important;
+ }
+ #mymap {
+  height: 400px;
+  width: 100%;
+}
+  /* END: custom css */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
