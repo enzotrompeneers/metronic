@@ -148,9 +148,9 @@
                                 <div class="tab-pane" id="meta" role="tabpanel">
                                    <?php include 'includes/viviendas/meta.php' ?>
                                 </div>
-                          </div>
-                        <!-- add url in 'horizontal.js' of the json file to add the content to the table -->
-                        <?php include 'includes/viviendas/table.php' ?>
+                            </div>
+                            <!-- add url in 'horizontal.js' of the json file to add the content to the table -->
+                            <?php include 'includes/viviendas/table.php' ?>
                         </div>
                     </div>
                     <!--end::Portlet-->

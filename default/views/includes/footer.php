@@ -673,9 +673,11 @@
 			</li>
 		</ul>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!--
 		<script async defer
     		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBGVDv5fOFgfW4ixNZL_2krgkriGu6vvc&callback=initMap&libraries=places">
 		</script>
+		-->
 		<script src="./../assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
 		<script src="./../assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
 		<script src="./../assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>

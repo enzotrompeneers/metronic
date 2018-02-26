@@ -19,8 +19,9 @@
 </div>
 <!--end: Search Form -->
 
+
 <!--begin: Datatable -->
-<table class="viviendas" id="viviendas-table" width="100%">
+<table class="tipos" id="tipos-table" width="100%">
     <thead>
         <tr>
             <th title="id">
@@ -113,3 +114,6 @@
     </tbody>
 </table>
 <!--end: Datatable -->
+
+
+
