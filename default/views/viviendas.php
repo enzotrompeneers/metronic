@@ -150,7 +150,100 @@
                                 </div>
                             </div>
                             <!-- add url in 'horizontal.js' of the json file to add the content to the table -->
-                            <?php include 'includes/viviendas/table.php' ?>
+                            
+                            <?php include 'includes/search.php' ?>
+                            <!--begin: Datatable -->
+                            <table class="viviendas" id="viviendas-table" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th title="id">
+                                            Id
+                                        </th>
+                                        <th title="image">
+                                            Image
+                                        </th>
+                                        <th title="referencia">
+                                            Referencia
+                                        </th>
+                                        <th title="tipo">
+                                            Tipo
+                                        </th>
+                                        <th title="localidad">
+                                            Localidad
+                                        </th>
+                                        <th title="precio de venta">
+                                            Precio de venta
+                                        </th>
+                                        <th title="visible">
+                                            Visible
+                                        </th>
+                                        <th title="destecado">
+                                            Destecado
+                                        </th>
+                                        <th title="comportamiento">
+                                            Comportamiento
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php for ($i = 0, $max = 10; $i <= $max; $i++) { ?>
+                                        <tr>
+                                            <td>
+                                                id
+                                            </td>
+                                            <td>
+                                                image
+                                            </td>
+                                            <td>
+                                                referencia
+                                            </td>
+                                            <td>
+                                                tipo
+                                            </td>
+                                            <td>
+                                                localidad
+                                            </td>
+                                            <td>
+                                                precio de venta
+                                            </td>
+                                            <td>
+                                                visible
+                                            </td>
+                                            <td>
+                                                destecado
+                                            </td>
+                                        </tr>
+                                    <?php } ?>
+
+                                    <tr>
+                                        <td>
+                                            id
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                        <td>
+                                            testing search
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!--end: Datatable -->
                         </div>
                     </div>
                     <!--end::Portlet-->

@@ -2,7 +2,7 @@
 var noUiSliderDemos = function() {
 
     var dormitoris = function() {
-        if (document.getElementsByClassName('dormitorios')[0]) {
+        if (document.getElementById("dormitorios")) {
 
             var sliderDormitorios = document.getElementById('dormitorios');
 
@@ -31,7 +31,7 @@ var noUiSliderDemos = function() {
     }
 
     var banos = function() {
-        if (document.getElementsByClassName('banos')[0]) {
+        if (document.getElementById('banos')) {
             var sliderBanos = document.getElementById('banos');
 
             noUiSlider.create(sliderBanos, {
@@ -59,7 +59,7 @@ var noUiSliderDemos = function() {
     }
 
     var aeropuerto = function() {
-        if (document.getElementsByClassName('aeropuerto')[0]) {
+        if (document.getElementById('aeropuerto')) {
 
             var sliderAeropuerto = document.getElementById('aeropuerto');
 
@@ -90,7 +90,7 @@ var noUiSliderDemos = function() {
     }
 
     var playa = function() {
-        if (document.getElementsByClassName('playa')[0]) {
+        if (document.getElementById('playa')) {
 
             var sliderPlaya = document.getElementById('playa');
 
@@ -122,7 +122,7 @@ var noUiSliderDemos = function() {
 
     var ciudad = function() {
         var sliderCiudad = document.getElementById('ciudad');
-        if (document.getElementsByClassName('ciudad')[0]) {
+        if (document.getElementById('ciudad')) {
 
             noUiSlider.create(sliderCiudad, {
                 start: [ 0 ],
@@ -152,7 +152,7 @@ var noUiSliderDemos = function() {
 
     var golf = function() {
         var sliderGolf = document.getElementById('golf');
-        if (document.getElementsByClassName('golf')[0]) {
+        if (document.getElementById('golf')) {
 
             noUiSlider.create(sliderGolf, {
                 start: [ 0 ],

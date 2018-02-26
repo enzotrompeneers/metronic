@@ -27,38 +27,38 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="referencia" class="col-form-label col-lg-3 col-sm-12">
                     Referencia
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="referencia" placeholder="Referencia">
+                    <input id="referencia" type="text" class="form-control m-input" name="referencia" placeholder="Referencia">
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="titulo-es" class="col-form-label col-lg-3 col-sm-12">
                     Titulo es
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo es">
+                    <input id="titulo-es" type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo es">
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="titulo-en" class="col-form-label col-lg-3 col-sm-12">
                     Titulo en
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo en">
+                    <input id="titulo-en" type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo en">
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="titulo-nl" class="col-form-label col-lg-3 col-sm-12">
                     Titulo nl
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo nl">
+                    <input id="titulo-nl" type="text" class="form-control m-input" name="titulo-es" placeholder="Titulo nl">
                 </div>
             </div>
 
@@ -207,11 +207,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="ano-construido" class="col-form-label col-lg-3 col-sm-12">
                     Ano Construido
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="ano-construido" placeholder="Ano Construido">
+                    <input id="ano-construido" type="text" class="form-control m-input" name="ano-construido" placeholder="Ano Construido">
                 </div>
             </div>
 
@@ -251,11 +251,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="video" class="col-form-label col-lg-3 col-sm-12">
                     Video
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="video" placeholder="Video">
+                    <input id="video" type="text" class="form-control m-input" name="video" placeholder="Video">
                 </div>
             </div>
 

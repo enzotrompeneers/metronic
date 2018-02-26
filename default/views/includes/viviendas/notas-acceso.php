@@ -27,11 +27,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="nombre" class="col-form-label col-lg-3 col-sm-12">
                     Acceso nombre contacto
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                    <input type="text" class="form-control m-input" name="acceso-nombre-contacto" placeholder="Acceso nombre contacto">
+                    <input id="nombre" type="text" class="form-control m-input" name="acceso-nombre-contacto" placeholder="Acceso nombre contacto">
                     <span class="m-input-icon__icon m-input-icon__icon--left">
                         <span>
                             <i class="fa fa-user"></i>
@@ -41,11 +41,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="telefono" class="col-form-label col-lg-3 col-sm-12">
                     Acceso telefono contacto
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                    <input type="text" class="form-control m-input" name="acceso-telefono-contacto" placeholder="Acceso telefono contacto">
+                    <input id="telefono" type="text" class="form-control m-input" name="acceso-telefono-contacto" placeholder="Acceso telefono contacto">
                     <span class="m-input-icon__icon m-input-icon__icon--left">
                         <span>
                             <i class="fa fa-phone"></i>
@@ -55,11 +55,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="clave" class="col-form-label col-lg-3 col-sm-12">
                     Acceso referencia clave
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                    <input type="text" class="form-control m-input" name="acceso-referncia-clave" placeholder="Acceso referencia clave">
+                    <input id="clave" type="text" class="form-control m-input" name="acceso-referncia-clave" placeholder="Acceso referencia clave">
                     <span class="m-input-icon__icon m-input-icon__icon--left">
                         <span>
                             <i class="fa fa-key"></i>
@@ -69,11 +69,11 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="ubicacion" class="col-form-label col-lg-3 col-sm-12">
                     Acceso ubicacion clave
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                    <input type="text" class="form-control m-input" name="acceso-ubicacion-clave" placeholder="Acceso ubicacion clave">
+                    <input id="ubicacion" type="text" class="form-control m-input" name="acceso-ubicacion-clave" placeholder="Acceso ubicacion clave">
                     <span class="m-input-icon__icon m-input-icon__icon--left">
                         <span>
                             <i class="fa fa-key"></i>

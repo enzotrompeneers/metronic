@@ -27,29 +27,38 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="venta" class="col-form-label col-lg-3 col-sm-12">
                     Precio de venta
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="precio-de-venta" placeholder="Precio de venta">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="venta" name="precio-de-venta" placeholder="precio de venta" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        &euro;
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="anterior" class="col-form-label col-lg-3 col-sm-12">
                     Precio anterior
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="precio-anterior" placeholder="Precio anterior">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="anterior" name="precio-anterior" placeholder="precio anterior" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        &euro;
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="neto" class="col-form-label col-lg-3 col-sm-12">
                     Precio neto
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="precio-neto" placeholder="Precio neto">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="neto" name="precio-neto" placeholder="precio neto" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        &euro;
+                    </span>
                 </div>
             </div>
 
@@ -68,20 +77,26 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="comunidad" class="col-form-label col-lg-3 col-sm-12">
                     Gastos comunidad
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="gastos-comunidad" placeholder="Gastos comunidad">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="comunidad" name="gastos-comunidad" placeholder="gastos comunidad" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        &euro;
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="ibi" class="col-form-label col-lg-3 col-sm-12">
                     Gastos ibi
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="gastos-ibi" placeholder="Gastos ibi">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="ibi" name="gastos-ibi" placeholder="gastos ibi" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        &euro;
+                    </span>
                 </div>
             </div>
 

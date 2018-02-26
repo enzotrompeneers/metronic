@@ -33,7 +33,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="aeropuerto_input"  placeholder="Distancia" name="distancia-aeropuerto">
+                            <input type="text" class="form-control" id="aeropuerto_input"  placeholder="Distancia" name="distancia-aeropuerto" readonly disabled>
                         </div>
                         <div class="col-3">
                             <select class="form-control m-bootstrap-select m_selectpicker" name="distancia-aeropuerto-unit">
@@ -60,7 +60,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="playa_input"  placeholder="Distancia" name="distancia-playa">
+                            <input type="text" class="form-control" id="playa_input"  placeholder="Distancia" name="distancia-playa" readonly disabled>
                         </div>
                         <div class="col-3">
                             <select class="form-control m-bootstrap-select m_selectpicker" name="distancia-playa-unit">
@@ -87,7 +87,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="ciudad_input"  placeholder="Distancia" name="distancia-ciudad">
+                            <input type="text" class="form-control" id="ciudad_input"  placeholder="Distancia" name="distancia-ciudad" readonly disabled>
                         </div>
                         <div class="col-3">
                             <select class="form-control m-bootstrap-select m_selectpicker" name="distancia-ciudad-unit">
@@ -114,7 +114,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="golf_input"  placeholder="Distancia" name="distancia-golf">
+                            <input type="text" class="form-control" id="golf_input"  placeholder="Distancia" name="distancia-golf" readonly disabled>
                         </div>
                         <div class="col-3">
                             <select class="form-control m-bootstrap-select m_selectpicker" name="distancia-golf-unit">

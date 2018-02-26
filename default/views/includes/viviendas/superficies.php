@@ -27,68 +27,76 @@
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="vivienda" class="col-form-label col-lg-3 col-sm-12">
                     Sup vivienda
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-vivienda" placeholder="Sup Vivienda">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="vivienda" name="sup-vivienda" placeholder="Sup vivienda" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="parcela" class="col-form-label col-lg-3 col-sm-12">
                     Sup parcela
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-parcela" placeholder="Sup parcela">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="parcela" name="sup-parcela" placeholder="Sup parcela" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="jardin" class="col-form-label col-lg-3 col-sm-12">
                     Sup jardin
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-jardin" placeholder="Sup jardin">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="jardin" name="sup-jardin" placeholder="Sup jardin" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
-                    Sup terrazas
-                </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-terazzas" placeholder="Sup terrazas">
-                </div>
-            </div>
-
-            <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="trastero" class="col-form-label col-lg-3 col-sm-12">
                     Sup trastero
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-trastero" placeholder="Sup trastero">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="trastero" name="sup-trastero" placeholder="Sup trastero" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="garaje" class="col-form-label col-lg-3 col-sm-12">
                     Sup garaje
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-garaje" placeholder="Sup garaje">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="garaje" name="sup-garaje" placeholder="Sup garaje" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
-                <label class="col-form-label col-lg-3 col-sm-12">
+                <label for="solarium" class="col-form-label col-lg-3 col-sm-12">
                     Sup solarium
                 </label>
-                <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type="text" class="form-control m-input" name="sup-solarium" placeholder="Sup solarium">
+                <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+                    <input id="solarium" name="sup-solarium" placeholder="Sup solarium" type="text" class="form-control m-input" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">
+                        m<sup>2</sup>
+                    </span>
                 </div>
             </div>
-
             
         </div>
         <div class="m-portlet__foot m-portlet__foot--fit">

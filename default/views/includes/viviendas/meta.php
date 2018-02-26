@@ -31,7 +31,12 @@
                     Fecha creado
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type='text' class="form-control" name="fecha-creado" id="m_datepicker_1" readonly placeholder="Fecha creado"/>
+                    <div class='input-group date' id='m_datepicker'>
+                        <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha-creado" placeholder="fecha creado"/>
+                        <span class="input-group-addon">
+                            <i class="la la-calendar-check-o"></i>
+                        </span>
+                    </div>
                 </div>
             </div>
 
@@ -40,7 +45,12 @@
                     Fecha modificado
                 </label>
                 <div class="col-lg-4 col-md-9 col-sm-12">
-                    <input type='text' class="form-control" name="fecha-modificado" id="m_datepicker_1" readonly placeholder="Fecha modificado"/>
+                    <div class='input-group date' id='m_datepicker'>
+                        <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha-modificado" placeholder="fecha modificado"/>
+                        <span class="input-group-addon">
+                            <i class="la la-calendar-check-o"></i>
+                        </span>
+                    </div>
                 </div>
             </div>
 

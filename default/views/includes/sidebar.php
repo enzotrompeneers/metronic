@@ -48,7 +48,7 @@
                             </span>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/traducciones.html" class="m-menu__link ">
+                            <a  href="traducciones.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -58,7 +58,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/paginas.html" class="m-menu__link ">
+                            <a  href="paginas.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -68,7 +68,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/emails.html" class="m-menu__link ">
+                            <a  href="emails.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/email-client.html" class="m-menu__link ">
+                            <a  href="email-clinet.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -88,7 +88,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/panoramicas.html" class="m-menu__link ">
+                            <a  href="panoramicas.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -98,7 +98,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/contenido/config.html" class="m-menu__link ">
+                            <a  href="config.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -150,7 +150,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/localidades.html" class="m-menu__link ">
+                            <a  href="localidades.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -160,7 +160,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/clases.html" class="m-menu__link ">
+                            <a  href="clases.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -170,7 +170,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/opciones.html" class="m-menu__link ">
+                            <a  href="opciones.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -180,7 +180,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/piscinas.html" class="m-menu__link ">
+                            <a  href="piscinas.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -190,7 +190,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/jardinas.html" class="m-menu__link ">
+                            <a  href="jardinas.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -200,7 +200,7 @@
                             </a>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/viviendas/vistas.html" class="m-menu__link ">
+                            <a  href="vistas.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -232,7 +232,7 @@
                             </span>
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
-                            <a  href="views/admin/contactos.html" class="m-menu__link ">
+                            <a  href="contactos.php" class="m-menu__link ">
                                 <i class="m-menu__link-bullet m-menu__link-bullet--dot">
                                     <span></span>
                                 </i>
@@ -246,7 +246,7 @@
             </li>
 
             <li class="m-menu__item" aria-haspopup="true" >
-                <a  href="views/logout.html" class="m-menu__link ">
+                <a  href="logout.php" class="m-menu__link ">
                     <i class="m-menu__link-icon flaticon-logout"></i>
                     <span class="m-menu__link-title">
                         <span class="m-menu__link-wrap">

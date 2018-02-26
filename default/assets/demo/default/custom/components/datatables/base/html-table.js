@@ -98,8 +98,6 @@ var DatatableHtmlTableDemo = function() {
 
     
   };
-
-
     
   var tipos = function() {
     if (document.getElementsByClassName('tipos')[0]) {
@@ -164,6 +162,79 @@ var DatatableHtmlTableDemo = function() {
     };
   }
 
+  var traduccionesNuevo = function() {
+    if (document.getElementsByClassName('traducciones-nuevo')[0]) {
+
+      var datatable = $('.traducciones-nuevo').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Palabra o fresa",
+            title: "palabra o fresa",
+            width: 100,
+          },
+          {
+            field: "Traduccion",
+            title: "traduccion",
+            width: 100,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#">\
+                  <img src="../assets/app/media/img/icons/es.gif" alt="es">\
+                </a>\
+                <a href="#">\
+                  <img src="../assets/app/media/img/icons/en.gif" alt="en">\
+                </a>\
+                <a href="#">\
+                  <img src="../assets/app/media/img/icons/nl.gif" alt="nl">\
+                </a>\
+              ';
+            }
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          },
+        ],
+      });
+    };
+  }
 
   return {
     //== Public functions
@@ -171,9 +242,14 @@ var DatatableHtmlTableDemo = function() {
       // init dmeo
       viviendas();
       tipos();
+      traduccionesNuevo();
     },
   };
 }();
+
+$("#nuevo").click(function() {
+  $("form").toggle();
+});
 
 jQuery(document).ready(function() {
   DatatableHtmlTableDemo.init();

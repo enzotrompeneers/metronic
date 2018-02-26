@@ -33,7 +33,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="dormitorios_input"  placeholder="Nùmero" name="dormitorios">
+                            <input type="text" class="form-control" id="dormitorios_input"  placeholder="Nùmero" name="dormitorios" readonly disabled>
                         </div>
                         <div class="col-6">
                             <div id="dormitorios" class="m-nouislider--drag-danger"></div>
@@ -49,7 +49,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12">
                     <div class="row align-items-center">
                         <div class="col-3">
-                            <input type="text" class="form-control" id="banos_input"  placeholder="Nùmero" name="banos">
+                            <input type="text" class="form-control" id="banos_input"  placeholder="Nùmero" name="banos" readonly disabled>
                         </div>
                         <div class="col-6">
                             <div id="banos" class="m-nouislider--drag-danger"></div>
