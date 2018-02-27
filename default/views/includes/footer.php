@@ -689,6 +689,7 @@
 		<script src="./../assets/demo/default/custom/components/forms/widgets/dropzone.js" type="text/javascript"></script>
 		<script src="./../assets/demo/default/custom/components/datatables/base/html-table.js" type="text/javascript"></script>
 		<script src="./../assets/demo/default/custom/components/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
+		<script src="./../assets/app/js/jquery.nestable.js" type="text/javascript"></script>
 		
 		<script src="./../assets/vendors/custom/show-map.js" type="text/javascript"></script>
 	</body>

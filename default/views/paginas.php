@@ -28,7 +28,7 @@
 
                         <div class="m-portlet__body">
                             <!--begin::Portlet-->
-                            <div class="m-portlet m-portlet--success m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" id="m_portlet_tools_1">
+                            <div class="m-portlet m-portlet--success m-portlet--head-solid-bg m-portlet--head-sm m-portlet--collapsed" data-portlet="true" id="m_portlet_tools_1">
                                 <div class="m-portlet__head">
                                     <div class="m-portlet__head-caption">
                                         <div class="m-portlet__head-title">
@@ -173,11 +173,91 @@
                                             </div>
 
                                             <div class="form-group m-form__group row">
-                                                <label for="pagina" class="col-form-label col-lg-3 col-sm-12">
-                                                    Nueva pagina
-                                                </label>
-                                                <div class="col-lg-4 col-md-9 col-sm-12">
-                                                    <input id="pagina" type="text" class="form-control m-input" name="pagina" placeholder="nueva pagina">
+                                                <menu id="nestable-menu">
+                                                    <button type="button" class="btn btn-accent m-btn  m-btn--icon" data-action="expand-all">
+                                                        <i class="fa fa-expand"></i>
+                                                        Expand All
+                                                    </button>
+                                                    <button type="button" class="btn btn-accent m-btn  m-btn--icon" data-action="collapse-all">
+                                                        <i class="fa fa-compress"></i>
+                                                        Collapse All
+                                                    </button>
+                                                </menu>
+
+                                                <div class="cf nestable-lists">
+                                                    
+
+                                                    <div class="dd" id="nestable">
+                                                        <ol class="dd-list">
+                                                            <h1>Menú interior</h1>
+                                                            <li class="dd-item" data-id="1">
+                                                                <div class="dd-handle">
+                                                                    <i class="fa fa-arrows"></i>
+                                                                    inicio
+                                                                    <i class="fa fa-edit e-right"></i>
+                                                                </div>
+                                                            </li>
+
+                                                            <li class="dd-item" data-id="2">
+                                                                <div class="dd-handle">
+                                                                    <i class="fa fa-arrows"></i>
+                                                                    viviendas
+                                                                    <i class="fa fa-edit e-right"></i>
+                                                                </div>
+
+                                                                <ol class="dd-list">
+                                                                    <li class="dd-item" data-id="3">
+                                                                        <div class="dd-handle">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                            empresa
+                                                                            <i class="fa fa-edit e-right"></i>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <li class="dd-item" data-id="4">
+                                                                        <div class="dd-handle">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                            contacto
+                                                                            <i class="fa fa-edit e-right"></i>
+                                                                        </div>
+                                                                    </li>
+
+                                                                    <li class="dd-item" data-id="5">
+                                                                        <div class="dd-handle">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                            politica-privacidad
+                                                                            <i class="fa fa-edit e-right"></i>
+                                                                        </div>
+                                                                        <ol class="dd-list">
+                                                                            <li class="dd-item" data-id="6">
+                                                                                <div class="dd-handle">
+                                                                                    <i class="fa fa-arrows"></i>
+                                                                                    aviso-legal
+                                                                                    <i class="fa fa-edit e-right"></i>
+                                                                                </div>
+                                                                            </li>
+                                                                        </ol>
+                                                                    </li>
+                                                                </ol>
+                                                            </li>
+                                                            <li class="dd-item" data-id="11">
+                                                                <div class="dd-handle">
+                                                                <i class="fa fa-arrows"></i>
+                                                                politica-cookies
+                                                                <i class="fa fa-edit e-right"></i>
+                                                                </div>
+                                                            </li>
+                                                            <h1>Menú exterior</h1>
+                                                            <li class="dd-item" data-id="12">
+                                                                <div class="dd-handle">
+                                                                <i class="fa fa-arrows"></i>
+                                                                not in the menu
+                                                                <i class="fa fa-edit e-right"></i>
+                                                                </div>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>

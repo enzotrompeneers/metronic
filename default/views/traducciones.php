@@ -44,31 +44,20 @@
 
                                         <div class="col-xl-4 text-right upload-download">
                                             <label id="import-csv" for="file-upload" class="btn btn-accent m-btn  m-btn--icon">
-                                                <span>
-                                                    <i class="la la-upload"></i>
-                                                    <span>
-                                                        Importar csv
-                                                    </span>
-                                                </span>
+                                                <i class="la la-upload"></i>
+                                                Importar csv
                                             </label>
                                             <input id="file-upload" type="file" accept=".csv"/>
 
                                             <button id="export-csv" type="button" class="btn btn-accent m-btn  m-btn--icon">
-                                                <span>
-                                                    <i class="la la-download"></i>
-                                                    <span>
-                                                        Exportar csv
-                                                    </span>
-                                                </span>
+                                                <i class="la la-download"></i>
+                                                Exportar csv
                                             </button>
                                         </div>
                                         <div class="col-xl-12">
                                             <?php include 'includes/search.php' ?>
                                         </div>
                                     </div>
-                                    
-
-                                    
                                 </div>
                             </div>
 
