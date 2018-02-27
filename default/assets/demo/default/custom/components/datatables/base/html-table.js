@@ -57,7 +57,7 @@ var DatatableHtmlTableDemo = function() {
             field: "Visible",
             title: "visible",
             width: 60,
-            sortable: false,
+            sortable: true,
             template: function () {
               return '\
               <span class="m-switch m-switch--outline m-switch--icon m-switch--success">\
@@ -188,8 +188,8 @@ var DatatableHtmlTableDemo = function() {
             textAlign: 'center',
           },
           {
-            field: "Palabra o fresa",
-            title: "palabra o fresa",
+            field: "Clave",
+            title: "clave",
             width: 100,
           },
           {
@@ -247,9 +247,11 @@ var DatatableHtmlTableDemo = function() {
   };
 }();
 
-$("#nuevo").click(function() {
-  $("form").toggle();
+$("#traducciones-nuevo").click(function() {
+  $("#portlet-nuevo").toggle();
+  //$("#traducciones-nuevo").prop("disabled", true);
 });
+
 
 jQuery(document).ready(function() {
   DatatableHtmlTableDemo.init();

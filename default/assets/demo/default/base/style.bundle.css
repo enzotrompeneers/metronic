@@ -40,6 +40,17 @@ $table-inverse-color:           $body-bg !default;
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+
+ 
+ input[type="file"] {
+  display: none;
+}
+.upload-download label {
+  margin-bottom: 0;
+}
+
+
+
  /* START: custom css */
  .big-icon {
    font-size: 30px !important;
