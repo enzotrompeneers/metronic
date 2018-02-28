@@ -48,6 +48,9 @@ a.btn.btn-accent.m-btn.m-btn--icon.e-right {
   float: right;
   height: 100%;
 }
+a.btn.btn-danger.m-btn.m-btn--icon.e-right {
+  margin-bottom: 20px;
+}
 
 .small { color: #666; font-size: 0.875em; }
 .large { font-size: 1.25em; }

@@ -170,7 +170,7 @@
                                             <div class="cf nestable-lists">
                                                 <div class="dd" id="nestable">
                                                     <ol class="dd-list">
-                                                        <h1>Menú interior</h1>
+                                                        <h1>Menu principal</h1>
                                                         <li class="dd-item" data-id="1">
                                                             <div class="dd-handle">
                                                                 <i class="fa fa-arrows"></i>
@@ -224,18 +224,17 @@
                                                                             Editar
                                                                         </a>
                                                                     </div>
-                                                                    <ol class="dd-list">
-                                                                        <li class="dd-item" data-id="6">
-                                                                            <div class="dd-handle">
-                                                                                <i class="fa fa-arrows"></i>
-                                                                                aviso-legal
-                                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
-                                                                                    <i class="fa fa-edit"></i>
-                                                                                    Editar
-                                                                                </a>
-                                                                            </div>
-                                                                        </li>
-                                                                    </ol>
+                                                                </li>
+
+                                                                <li class="dd-item" data-id="6">
+                                                                    <div class="dd-handle">
+                                                                        <i class="fa fa-arrows"></i>
+                                                                        aviso-legal
+                                                                        <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                            <i class="fa fa-edit"></i>
+                                                                            Editar
+                                                                        </a>
+                                                                    </div>
                                                                 </li>
                                                             </ol>
                                                         </li>
@@ -253,15 +252,11 @@
                                                     </ol>
 
                                                     <ol class="dd-list">
-                                                        <h1>Menú exterior</h1>
+                                                        <h1>Fuera de menu</h1>
+    
+
                                                         <li class="dd-item" data-id="12">
-                                                            <div class="dd-handle">
-                                                                <i class="fa fa-arrows"></i>
-                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
-                                                                    <i class="fa fa-edit"></i>
-                                                                    Editar
-                                                                </a>
-                                                            </div>
+                                                            Arrastre y suelte aquí
                                                         </li>
                                                     </ol>
                                                 </div>
@@ -272,15 +267,7 @@
                                                 <div class="m-portlet__head">
                                                     <div class="m-portlet__head-caption">
                                                         <div class="m-portlet__head-title">
-                                                            <div class="m-portlet__head-tools">
-                                                                <ul class="m-portlet__nav">
-                                                                    <li class="m-portlet__nav-item">
-                                                                        <a href=""  data-portlet-tool="toggle" class="m-portlet__nav-link m-portlet__nav-link--icon">
-                                                                            <i class="la la-plus"></i>
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                            
                                                             <h3 class="m-portlet__head-text">
                                                                 Editar: pagename
                                                             </h3>
@@ -341,81 +328,17 @@
                                                         <div class="tab-pane" id="documentos" role="tabpanel">
                                                             <?php include 'includes/paginas/documentos.php' ?>
                                                         </div>
+
+                                                        <a href="#" class="btn btn-danger m-btn  m-btn--icon e-right pagina-editar">
+                                                            <i class="fa fa-trash"></i>
+                                                            Borrar pagina
+                                                        </a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                </div>
-                            </div>
-                            <!--end::Portlet-->
-
-                            <!--begin::Portlet-->
-                            <div class="m-portlet m-portlet--danger m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" id="m_portlet_tools_1">
-                                <div class="m-portlet__head">
-                                    <div class="m-portlet__head-caption">
-                                        <div class="m-portlet__head-title">
-                                            <div class="m-portlet__head-tools">
-                                                <ul class="m-portlet__nav">
-                                                    <li class="m-portlet__nav-item">
-                                                        <a href=""  data-portlet-tool="toggle" class="m-portlet__nav-link m-portlet__nav-link--icon">
-                                                            <i class="la la-plus"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <h3 class="m-portlet__head-text">
-                                                Borrar pagina
-                                            </h3>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="m-portlet__body">
-                                <!--begin::Form-->
-                                    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="borrar-pagina" action="#" method="get">
-                                        <div class="m-portlet__body">
-                                            <div class="m-form__content">
-                                                <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
-                                                    <div class="m-alert__icon">
-                                                        <i class="la la-warning"></i>
-                                                    </div>
-                                                    <div class="m-alert__text">
-                                                        mensaje de error!
-                                                    </div>
-                                                    <div class="m-alert__close">
-                                                        <button type="button" class="close" data-close="alert" aria-label="Close"></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-group m-form__group row">
-                                                <label for="pagina" class="col-form-label col-lg-3 col-sm-12">
-                                                    Nueva pagina
-                                                </label>
-                                                <div class="col-lg-4 col-md-9 col-sm-12">
-                                                    <input id="pagina" type="text" class="form-control m-input" name="pagina" placeholder="nueva pagina">
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="m-portlet__foot m-portlet__foot--fit">
-                                            <div class="m-form__actions m-form__actions">
-                                                <div class="row">
-                                                    <div class="col-lg-9 ml-lg-auto">
-                                                        <button type="submit" class="btn btn-accent">
-                                                            Guardar
-                                                        </button>
-                                                        <button type="reset" class="btn btn-secondary">
-                                                            Cancelar
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                    <!--end::Form-->
                                 </div>
                             </div>
                             <!--end::Portlet-->
