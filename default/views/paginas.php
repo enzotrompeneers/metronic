@@ -117,7 +117,7 @@
                                             <div class="m-form__actions m-form__actions">
                                                 <div class="row">
                                                     <div class="col-lg-9 ml-lg-auto">
-                                                        <button type="submit" class="btn btn-accent">
+                                                        <button type="submit" class="btn btn-success">
                                                             Guardar
                                                         </button>
                                                         <button type="reset" class="btn btn-secondary">
@@ -134,7 +134,7 @@
                             <!--end::Portlet-->
 
                             <!--begin::Portlet-->
-                            <div class="m-portlet m-portlet--warning m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" id="m_portlet_tools_1">
+                            <div class="m-portlet m-portlet--accent m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" id="m_portlet_tools_1">
                                 <div class="m-portlet__head">
                                     <div class="m-portlet__head-caption">
                                         <div class="m-portlet__head-title">
@@ -155,129 +155,198 @@
                                 </div>
 
                                 <div class="m-portlet__body">
-                                <!--begin::Form-->
-                                    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="editar-pagina" action="#" method="get">
-                                        <div class="m-portlet__body">
-                                            <div class="m-form__content">
-                                                <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
-                                                    <div class="m-alert__icon">
-                                                        <i class="la la-warning"></i>
-                                                    </div>
-                                                    <div class="m-alert__text">
-                                                        mensaje de error!
-                                                    </div>
-                                                    <div class="m-alert__close">
-                                                        <button type="button" class="close" data-close="alert" aria-label="Close"></button>
-                                                    </div>
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                        <menu id="nestable-menu">
+                                                <button type="button" class="btn btn-primary m-btn  m-btn--icon" data-action="expand-all">
+                                                    <i class="fa fa-expand"></i>
+                                                    Expand All
+                                                </button>
+                                                <button type="button" class="btn btn-primary m-btn  m-btn--icon" data-action="collapse-all">
+                                                    <i class="fa fa-compress"></i>
+                                                    Collapse All
+                                                </button>
+                                            </menu>
+                                            <div class="cf nestable-lists">
+                                                <div class="dd" id="nestable">
+                                                    <ol class="dd-list">
+                                                        <h1>Menú interior</h1>
+                                                        <li class="dd-item" data-id="1">
+                                                            <div class="dd-handle">
+                                                                <i class="fa fa-arrows"></i>
+                                                                inicio
+                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                    <i class="fa fa-edit"></i>
+                                                                    Editar
+                                                                </a>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="dd-item" data-id="2">
+                                                            <div class="dd-handle">
+                                                                <i class="fa fa-arrows"></i>
+                                                                viviendas
+                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                    <i class="fa fa-edit"></i>
+                                                                    Editar
+                                                                </a>
+                                                            </div>
+
+                                                            <ol class="dd-list">
+                                                                <li class="dd-item" data-id="3">
+                                                                    <div class="dd-handle">
+                                                                        <i class="fa fa-arrows"></i>
+                                                                        empresa
+                                                                        <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                            <i class="fa fa-edit"></i>
+                                                                            Editar
+                                                                        </a>
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="dd-item" data-id="4">
+                                                                    <div class="dd-handle">
+                                                                        <i class="fa fa-arrows"></i>
+                                                                        contacto
+                                                                        <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                            <i class="fa fa-edit"></i>
+                                                                            Editar
+                                                                        </a>
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="dd-item" data-id="5">
+                                                                    <div class="dd-handle">
+                                                                        <i class="fa fa-arrows"></i>
+                                                                        politica-privacidad
+                                                                        <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                            <i class="fa fa-edit"></i>
+                                                                            Editar
+                                                                        </a>
+                                                                    </div>
+                                                                    <ol class="dd-list">
+                                                                        <li class="dd-item" data-id="6">
+                                                                            <div class="dd-handle">
+                                                                                <i class="fa fa-arrows"></i>
+                                                                                aviso-legal
+                                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                                    <i class="fa fa-edit"></i>
+                                                                                    Editar
+                                                                                </a>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ol>
+                                                                </li>
+                                                            </ol>
+                                                        </li>
+
+                                                        <li class="dd-item" data-id="11">
+                                                            <div class="dd-handle">
+                                                            <i class="fa fa-arrows"></i>
+                                                            politica-cookies
+                                                            <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                <i class="fa fa-edit"></i>
+                                                                Editar
+                                                            </a>
+                                                            </div>
+                                                        </li>
+                                                    </ol>
+
+                                                    <ol class="dd-list">
+                                                        <h1>Menú exterior</h1>
+                                                        <li class="dd-item" data-id="12">
+                                                            <div class="dd-handle">
+                                                                <i class="fa fa-arrows"></i>
+                                                                <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
+                                                                    <i class="fa fa-edit"></i>
+                                                                    Editar
+                                                                </a>
+                                                            </div>
+                                                        </li>
+                                                    </ol>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div id="portlet-editar" class="m-portlet m-portlet--accent m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" style="display: none;">
+                                                <div class="m-portlet__head">
+                                                    <div class="m-portlet__head-caption">
+                                                        <div class="m-portlet__head-title">
+                                                            <div class="m-portlet__head-tools">
+                                                                <ul class="m-portlet__nav">
+                                                                    <li class="m-portlet__nav-item">
+                                                                        <a href=""  data-portlet-tool="toggle" class="m-portlet__nav-link m-portlet__nav-link--icon">
+                                                                            <i class="la la-plus"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <h3 class="m-portlet__head-text">
+                                                                Editar: pagename
+                                                            </h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-                                            <div class="form-group m-form__group row">
-                                                <menu id="nestable-menu">
-                                                    <button type="button" class="btn btn-accent m-btn  m-btn--icon" data-action="expand-all">
-                                                        <i class="fa fa-expand"></i>
-                                                        Expand All
-                                                    </button>
-                                                    <button type="button" class="btn btn-accent m-btn  m-btn--icon" data-action="collapse-all">
-                                                        <i class="fa fa-compress"></i>
-                                                        Collapse All
-                                                    </button>
-                                                </menu>
-
-                                                <div class="cf nestable-lists">
+                                                <div class="m-portlet__body">
+                                                    <ul class="nav nav-tabs" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" data-toggle="tab" href="#general">
+                                                                General
+                                                            </a>
+                                                        </li>
                                                     
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#seo">
+                                                                Seo
+                                                            </a>
+                                                        </li>
 
-                                                    <div class="dd" id="nestable">
-                                                        <ol class="dd-list">
-                                                            <h1>Menú interior</h1>
-                                                            <li class="dd-item" data-id="1">
-                                                                <div class="dd-handle">
-                                                                    <i class="fa fa-arrows"></i>
-                                                                    inicio
-                                                                    <i class="fa fa-edit e-right"></i>
-                                                                </div>
-                                                            </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#textos">
+                                                                Textos
+                                                            </a>
+                                                        </li>
 
-                                                            <li class="dd-item" data-id="2">
-                                                                <div class="dd-handle">
-                                                                    <i class="fa fa-arrows"></i>
-                                                                    viviendas
-                                                                    <i class="fa fa-edit e-right"></i>
-                                                                </div>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#imagenes">
+                                                                Imagenes
+                                                            </a>
+                                                        </li>
 
-                                                                <ol class="dd-list">
-                                                                    <li class="dd-item" data-id="3">
-                                                                        <div class="dd-handle">
-                                                                            <i class="fa fa-arrows"></i>
-                                                                            empresa
-                                                                            <i class="fa fa-edit e-right"></i>
-                                                                        </div>
-                                                                    </li>
+                                                        <li class="nav-item">
+                                                            <a class="nav-link" data-toggle="tab" href="#documentos">
+                                                                Documentos
+                                                            </a>
+                                                        </li>
+                                                    </ul>
 
-                                                                    <li class="dd-item" data-id="4">
-                                                                        <div class="dd-handle">
-                                                                            <i class="fa fa-arrows"></i>
-                                                                            contacto
-                                                                            <i class="fa fa-edit e-right"></i>
-                                                                        </div>
-                                                                    </li>
+                                                    <div class="tab-content">
+                                                        <div class="tab-pane active" id="general" role="tabpanel">
+                                                            <?php include 'includes/paginas/general.php' ?>
+                                                        </div>
 
-                                                                    <li class="dd-item" data-id="5">
-                                                                        <div class="dd-handle">
-                                                                            <i class="fa fa-arrows"></i>
-                                                                            politica-privacidad
-                                                                            <i class="fa fa-edit e-right"></i>
-                                                                        </div>
-                                                                        <ol class="dd-list">
-                                                                            <li class="dd-item" data-id="6">
-                                                                                <div class="dd-handle">
-                                                                                    <i class="fa fa-arrows"></i>
-                                                                                    aviso-legal
-                                                                                    <i class="fa fa-edit e-right"></i>
-                                                                                </div>
-                                                                            </li>
-                                                                        </ol>
-                                                                    </li>
-                                                                </ol>
-                                                            </li>
-                                                            <li class="dd-item" data-id="11">
-                                                                <div class="dd-handle">
-                                                                <i class="fa fa-arrows"></i>
-                                                                politica-cookies
-                                                                <i class="fa fa-edit e-right"></i>
-                                                                </div>
-                                                            </li>
-                                                            <h1>Menú exterior</h1>
-                                                            <li class="dd-item" data-id="12">
-                                                                <div class="dd-handle">
-                                                                <i class="fa fa-arrows"></i>
-                                                                not in the menu
-                                                                <i class="fa fa-edit e-right"></i>
-                                                                </div>
-                                                            </li>
-                                                        </ol>
-                                                    </div>
+                                                        <div class="tab-pane" id="seo" role="tabpanel">
+                                                            <?php include 'includes/paginas/seo.php' ?>
+                                                        </div>
 
-                                                </div>
-                                            </div>
-                                        </div>
+                                                        <div class="tab-pane" id="textos" role="tabpanel">
+                                                            <?php include 'includes/paginas/textos.php' ?>
+                                                        </div>
 
-                                        <div class="m-portlet__foot m-portlet__foot--fit">
-                                            <div class="m-form__actions m-form__actions">
-                                                <div class="row">
-                                                    <div class="col-lg-9 ml-lg-auto">
-                                                        <button type="submit" class="btn btn-accent">
-                                                            Guardar
-                                                        </button>
-                                                        <button type="reset" class="btn btn-secondary">
-                                                            Cancelar
-                                                        </button>
+                                                        <div class="tab-pane" id="imagenes" role="tabpanel">
+                                                            <?php include 'includes/paginas/imagenes.php' ?>
+                                                        </div>
+
+                                                        <div class="tab-pane" id="documentos" role="tabpanel">
+                                                            <?php include 'includes/paginas/documentos.php' ?>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>
-                                    <!--end::Form-->
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <!--end::Portlet-->

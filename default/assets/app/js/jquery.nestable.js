@@ -34,6 +34,7 @@
             itemClass       : 'dd-item',
             dragClass       : 'dd-dragel',
             handleClass     : 'dd-handle',
+            faArrows       : 'fa-arrows',
             collapsedClass  : 'dd-collapsed',
             placeClass      : 'dd-placeholder',
             noDragClass     : 'dd-nodrag',
@@ -87,11 +88,11 @@
             var onStartEvent = function(e)
             {
                 var handle = $(e.target);
-                if (!handle.hasClass(list.options.handleClass)) {
+                if (!handle.hasClass(list.options.faArrows)) {
                     if (handle.closest('.' + list.options.noDragClass).length) {
                         return;
                     }
-                    handle = handle.closest('.' + list.options.handleClass);
+                    handle = handle.closest('.' + list.options.faArrows);
                 }
 
                 if (!handle.length || list.dragEl) {

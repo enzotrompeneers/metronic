@@ -10,7 +10,7 @@
         </div>
     </div>
     <!--begin::Form-->
-    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="publicacion" action="#" method="get">
+    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="viviendas-publicacion" action="#" method="get">
         <div class="m-portlet__body">
             <div class="m-form__content">
                 <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
@@ -93,7 +93,7 @@
             <div class="m-form__actions m-form__actions">
                 <div class="row">
                     <div class="col-lg-9 ml-lg-auto">
-                        <button type="submit" class="btn btn-accent">
+                        <button type="submit" class="btn btn-success">
                             Guardar
                         </button>
                         <button type="reset" class="btn btn-secondary">

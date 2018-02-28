@@ -4,13 +4,13 @@
         <div class="m-portlet__head-caption">
             <div class="m-portlet__head-title">
                 <h3 class="m-portlet__head-text">
-                    Descripciones
+                    Textos
                 </h3>
             </div>
         </div>
     </div>
     <!--begin::Form-->
-    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="viviendas-descripciones" action="#" method="get">
+    <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="paginas-textos" action="#" method="get">
         <div class="m-portlet__body">
             <div class="m-form__content">
                 <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
@@ -25,22 +25,31 @@
                     </div>
                 </div>
             </div>
-
+            
             <div class="form-group m-form__group row">
                 <label class="col-form-label col-lg-3 col-sm-12">
-                    Descripcion en
+                    Art es
                 </label>
                 <div class="col-lg-8 col-md-9 col-sm-12">
-                    <div class="summernote" name="descripcion-en"></div>
+                    <div class="summernote" name="art-es"></div>
                 </div>
             </div>
 
             <div class="form-group m-form__group row">
                 <label class="col-form-label col-lg-3 col-sm-12">
-                    Descripcion nl
+                    Art en
                 </label>
                 <div class="col-lg-8 col-md-9 col-sm-12">
-                    <div class="summernote" name="description-nl"></div>
+                    <div class="summernote" name="art-en"></div>
+                </div>
+            </div>
+
+            <div class="form-group m-form__group row">
+                <label class="col-form-label col-lg-3 col-sm-12">
+                    Art nl
+                </label>
+                <div class="col-lg-8 col-md-9 col-sm-12">
+                    <div class="summernote" name="art-nl"></div>
                 </div>
             </div>
         </div>

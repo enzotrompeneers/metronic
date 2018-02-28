@@ -42,9 +42,11 @@ $table-inverse-color:           $body-bg !default;
 
 
  .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
-.e-right {
+
+a.btn.btn-accent.m-btn.m-btn--icon.e-right {
+  line-height: 30px;
   float: right;
-  padding-top: 18px;
+  height: 100%;
 }
 
 .small { color: #666; font-size: 0.875em; }
@@ -58,7 +60,7 @@ $table-inverse-color:           $body-bg !default;
    padding: 20px 0;
  }
 
-.dd { position: relative; display: block; margin: 0; padding: 0; max-width: 900px; list-style: none; font-size: 20px; line-height: 50px; }
+.dd { width: 100%; position: relative; display: block; margin: 0; padding: 0; list-style: none; font-size: 20px; line-height: 50px; }
 
 .dd-list { display: block; position: relative; margin: 0; padding: 0; list-style: none; }
 .dd-list .dd-list { padding-left: 50px; }
@@ -68,7 +70,7 @@ $table-inverse-color:           $body-bg !default;
 .dd-empty,
 .dd-placeholder { display: block; position: relative; margin: 0; padding: 0; min-height: 20px; font-size: 20px; line-height: 50px; }
 
-.dd-handle { display: block; height: 50px; margin: 5px 0; padding: 0 20px; line-height: 50px; color: #333; text-decoration: none; font-weight: bold; border: 1px solid #ccc;
+.dd-handle { display: block; height: 50px; margin: 5px 0; padding-left: 20px; line-height: 50px; color: #333; text-decoration: none; font-weight: bold; border: 1px solid #ccc;
     background: #fafafa;
     background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
     background:    -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
@@ -127,7 +129,7 @@ $table-inverse-color:           $body-bg !default;
 
 @media only screen and (min-width: 700px) {
 
-    .dd { float: left; width: 48%; }
+    .dd { float: left; }
     .dd + .dd { margin-left: 2%; }
 
 }
@@ -12828,8 +12830,8 @@ code {
 .btn.m-btn--hover-accent, .btn.m-btn--hover-accent.active, .btn.m-btn--hover-accent:active, .btn.m-btn--hover-accent:focus,
 .show > .btn.m-btn--hover-accent.dropdown-toggle {
   color: #fff !important;
-  background-color: #ffb822 !important;
-  border-color: #ffb822 !important;}
+  background-color: #00c5dc !important;
+  border-color: #00c5dc !important;}
   .btn.m-btn--hover-accent i, .btn.m-btn--hover-accent.active i, .btn.m-btn--hover-accent:active i, .btn.m-btn--hover-accent:focus i,
   .show > .btn.m-btn--hover-accent.dropdown-toggle i {
     color: #ffffff !important; }

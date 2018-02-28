@@ -252,6 +252,12 @@ $("#traducciones-nuevo").click(function() {
   //$("#traducciones-nuevo").prop("disabled", true);
 });
 
+$(".pagina-editar").click(function() {
+  $("#portlet-editar").toggle();
+  //$("#traducciones-nuevo").prop("disabled", true);
+});
+
+
 
 jQuery(document).ready(function() {
   DatatableHtmlTableDemo.init();
