@@ -1,46 +1,8 @@
 @charset "UTF-8";
-/**
-$m--root-font: (
-    size: (
-        desktop: 13px,
-        tablet: 13px,
-        mobile: 13px
-    ), 
-    weight: 300, 
-    color: (
-        light: #333333, 
-        dark: #efefef
-    )
-);
-*/
-/*
-$table-inverse-bg:              $gray-900 !default;
-$table-inverse-accent-bg:       rgba($white, .05) !default;
-$table-inverse-hover-bg:        rgba($white, .075) !default;
-$table-inverse-border-color:    lighten($gray-900, 7.5%) !default;
-$table-inverse-color:           $body-bg !default;
-*/
-/*
-sm: 544px,
-md: 768px,
-lg: 992px,
-xl: 1200px
-*/
-/*
-$table-inverse-bg:              $gray-900 !default;
-$table-inverse-accent-bg:       rgba($white, .05) !default;
-$table-inverse-hover-bg:        rgba($white, .075) !default;
-$table-inverse-border-color:    lighten($gray-900, 7.5%) !default;
-$table-inverse-color:           $body-bg !default;
-*/
-/*!
- * Bootstrap v4.0.0-beta.2 (https://getbootstrap.com)
- * Copyright 2011-2017 The Bootstrap Authors
- * Copyright 2011-2017 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
-
+i.m-menu__ver-arrow.fa {
+  padding-right: 10px;
+}
  .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
  .m-portlet.m-portlet--success.m-portlet--head-solid-bg .m-portlet__foot, .m-portlet.m-portlet--success.m-portlet--head-solid-bg .m-portlet__foot,
@@ -30303,9 +30265,6 @@ body.m-content--skin-light2 {
   .m-aside-left.m-aside-left--skin-light {
     background-color: #ffffff; }
 
-.m-aside-left.m-aside-left-offcanvas-default .m-aside-left {
-  top: !important; }
-
 .m-aside-left.m-aside-left-offcanvas-default .m-body {
   padding-left: 0 !important; }
 
@@ -30315,6 +30274,7 @@ body.m-content--skin-light2 {
 
 .m-aside-left--hide .m-body {
   padding-left: 0 !important; }
+  
 
 @media (min-width: 993px) {
   .m-aside-left--minimize .m-aside-left {

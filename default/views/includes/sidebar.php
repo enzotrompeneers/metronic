@@ -9,10 +9,11 @@
         id="m_ver_menu" 
         class="m-aside-menu  m-aside-menu--skin-dark m-aside-menu--submenu-skin-dark " 
         data-menu-vertical="true"
-        data-menu-scrollable="false" data-menu-dropdown-timeout="500"  
+        data-menu-scrollable="false" data-menu-dropdown-timeout="500"
         >
+        
         <ul class="m-menu__nav  m-menu__nav--dropdown-submenu-arrow ">
-            <li class="m-menu__item  m-menu__item--active" aria-haspopup="true" >
+            <li class="m-menu__item m-menu__item--active" aria-haspopup="true" >
                 <a  href="index.php" class="m-menu__link ">
                     <i class="m-menu__link-icon flaticon-line-graph"></i>
                     <span class="m-menu__link-title">
@@ -22,13 +23,14 @@
                             </span>
                             <span class="m-menu__link-badge">
                                 <span class="m-badge m-badge--danger">
-                                    2
+                                    3
                                 </span>
                             </span>
                         </span>
                     </span>
                 </a>
             </li>
+
             <li class="m-menu__item  m-menu__item--submenu" aria-haspopup="true"  data-menu-submenu-toggle="hover">
                 <a  href="#" class="m-menu__link m-menu__toggle">
                     <i class="m-menu__link-icon flaticon-interface-1"></i>
@@ -49,9 +51,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="traducciones.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-flag"></i>
                                 <span class="m-menu__link-text">
                                     Traducciones
                                 </span>
@@ -59,9 +59,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="paginas.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-file-o"></i>
                                 <span class="m-menu__link-text">
                                     Paginas
                                 </span>
@@ -69,9 +67,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="emails.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-envelope-o"></i>
                                 <span class="m-menu__link-text">
                                     Emails
                                 </span>
@@ -79,9 +75,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="email-client.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-info-circle"></i>
                                 <span class="m-menu__link-text">
                                     Email client
                                 </span>
@@ -89,9 +83,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="panoramicas.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-camera"></i>
                                 <span class="m-menu__link-text">
                                     Panoramicas
                                 </span>
@@ -99,9 +91,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="config.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-gears"></i>
                                 <span class="m-menu__link-text">
                                     Config
                                 </span>
@@ -131,9 +121,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="viviendas.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Viviendas
                                 </span>
@@ -141,9 +129,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="tipos.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Tipos
                                 </span>
@@ -151,9 +137,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="localidades.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Localidades
                                 </span>
@@ -161,9 +145,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="clases.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Clases
                                 </span>
@@ -171,9 +153,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="opciones.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Opciones
                                 </span>
@@ -181,9 +161,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="piscinas.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"> </i>
                                 <span class="m-menu__link-text">
                                     Piscinas
                                 </span>
@@ -191,9 +169,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="jardines.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Jardines
                                 </span>
@@ -201,9 +177,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="vistas.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-tag"></i>
                                 <span class="m-menu__link-text">
                                     Vistas
                                 </span>
@@ -233,9 +207,7 @@
                         </li>
                         <li class="m-menu__item " aria-haspopup="true" >
                             <a  href="contactos.php" class="m-menu__link ">
-                                <i class="m-menu__link-bullet m-menu__link-bullet--dot">
-                                    <span></span>
-                                </i>
+                                <i class="m-menu__ver-arrow fa fa-comment"></i>
                                 <span class="m-menu__link-text">
                                     Contactos
                                 </span>
