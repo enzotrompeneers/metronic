@@ -236,7 +236,7 @@ var DatatableHtmlTableDemo = function() {
     };
   }
 
-  var configje = function() {
+  var config = function() {
     if (document.getElementsByClassName('config-table')[0]) {
 
       var datatable = $('.config-table').mDatatable({
@@ -294,14 +294,592 @@ var DatatableHtmlTableDemo = function() {
     };
   }
 
+  var emails = function() {
+    if (document.getElementsByClassName('emails-table')[0]) {
+
+      var datatable = $('.emails-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+
+  var panoramicas = function() {
+    if (document.getElementsByClassName('panoramicas-table')[0]) {
+
+      var datatable = $('.panoramicas-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Image",
+            title: "image",
+            width: 100,
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+
+  var localidades = function() {
+    if (document.getElementsByClassName('localidades-table')[0]) {
+
+      var datatable = $('.localidades-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var clases = function() {
+    if (document.getElementsByClassName('clases-table')[0]) {
+
+      var datatable = $('.clases-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var opciones = function() {
+    if (document.getElementsByClassName('opciones-table')[0]) {
+
+      var datatable = $('.opciones-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var piscinas = function() {
+    if (document.getElementsByClassName('piscinas-table')[0]) {
+
+      var datatable = $('.piscinas-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var jardines = function() {
+    if (document.getElementsByClassName('jardines-table')[0]) {
+
+      var datatable = $('.jardines-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var vistas = function() {
+    if (document.getElementsByClassName('vistas-table')[0]) {
+
+      var datatable = $('.vistas-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Nombre es",
+            title: "nombre es",
+            width: 100,
+          },
+          {
+            field: "Nombre en",
+            title: "nombre en",
+            width: 100,
+          },
+          {
+            field: "Nombre nl",
+            title: "nombre nl",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+  var contactos = function() {
+    if (document.getElementsByClassName('contactos-table')[0]) {
+
+      var datatable = $('.contactos-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Fecha",
+            title: "fecha",
+            width: 100,
+          },
+          {
+            field: "Clave",
+            title: "clave",
+            width: 100,
+          },
+          {
+            field: "Nombre",
+            title: "nombre",
+            width: 100,
+          },
+          {
+            field: "Email",
+            title: "email",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+
   return {
-    //== Public functions
     init: function() {
-      // init dmeo
       viviendas();
       tipos();
       traduccionesNueva();
-      configje();
+      config();
+      emails();
+      panoramicas();
+      localidades();
+      clases();
+      opciones();
+      piscinas();
+      jardines();
+      vistas();
+      contactos();
     },
   };
 }();

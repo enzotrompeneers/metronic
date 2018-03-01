@@ -20,13 +20,13 @@
                             <div class="m-portlet__head-caption">
                                 <div class="m-portlet__head-title">
                                     <h3 class="m-portlet__head-text">
-                                        Tipos
+                                        Contactos
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <!--begin::Form-->
-                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="tipos" action="#" method="get">
+                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="contactos" action="#" method="get">
                             <div class="m-portlet__body">
                                 <div class="m-form__content">
                                     <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
@@ -43,31 +43,91 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-es" class="col-form-label col-lg-3 col-sm-12">
-                                        Nombre es
+                                    <label for="clave" class="col-form-label col-lg-3 col-sm-12">
+                                        Clave
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-es" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre es">
+                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-en" class="col-form-label col-lg-3 col-sm-12">
-                                        Nombre en
+                                    <label for="nombre" class="col-form-label col-lg-3 col-sm-12">
+                                        Nombre
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-en" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre en">
+                                        <input id="nombre" type="text" class="form-control m-input" name="nombre" placeholder="nombre">
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-nl" class="col-form-label col-lg-3 col-sm-12">
-                                        Nombre nl
+                                    <label for="email" class="col-form-label col-lg-3 col-sm-12">
+                                        Email
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-nl" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre nl">
+                                        <input id="email" type="text" class="form-control m-input" name="email" placeholder="email">
                                     </div>
                                 </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label for="telefono" class="col-form-label col-lg-3 col-sm-12">
+                                        Telefono
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <input id="telefono" type="text" class="form-control m-input" name="telefono" placeholder="telefono">
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Mensaje
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="mensaje"></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Fecha
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <div class='input-group date' id='m_datepicker'>
+                                            <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha" placeholder="fecha"/>
+                                            <span class="input-group-addon">
+                                                <i class="la la-calendar-check-o"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label for="ip" class="col-form-label col-lg-3 col-sm-12">
+                                        Ip
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <input id="ip" type="text" class="form-control m-input" name="ip" placeholder="ip">
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Header
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="header"></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Email completo
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="email-completo"></div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="m-portlet__foot m-portlet__foot--fit">
                                 <div class="m-form__actions m-form__actions">
@@ -88,32 +148,23 @@
                         <div class="m-portlet__body">
                             <?php include 'includes/search.php' ?>
                             <!--begin: Datatable -->
-                            <table class="tipos" id="tipos-table" width="100%">
+                            <table class="contactos-table" id="contactos-table" width="100%">
                                 <thead>
                                     <tr>
                                         <th title="id">
                                             Id
                                         </th>
-                                        <th title="image">
-                                            Image
+                                        <th title="fecha">
+                                            Fecha
                                         </th>
-                                        <th title="referencia">
-                                            Referencia
+                                        <th title="clave">
+                                            Clave
                                         </th>
-                                        <th title="tipo">
-                                            Tipo
+                                        <th title="nombre">
+                                            Nombre
                                         </th>
-                                        <th title="localidad">
-                                            Localidad
-                                        </th>
-                                        <th title="precio de venta">
-                                            Precio de venta
-                                        </th>
-                                        <th title="visible">
-                                            Visible
-                                        </th>
-                                        <th title="destecado">
-                                            Destecado
+                                        <th title="email">
+                                            Email
                                         </th>
                                         <th title="comportamiento">
                                             Comportamiento
@@ -127,55 +178,19 @@
                                                 id
                                             </td>
                                             <td>
-                                                image
+                                                fecha
                                             </td>
                                             <td>
-                                                referencia
+                                                clave
                                             </td>
                                             <td>
-                                                tipo
+                                                nombre
                                             </td>
                                             <td>
-                                                localidad
-                                            </td>
-                                            <td>
-                                                precio de venta
-                                            </td>
-                                            <td>
-                                                visible
-                                            </td>
-                                            <td>
-                                                destecado
+                                                email
                                             </td>
                                         </tr>
                                     <?php } ?>
-
-                                    <tr>
-                                        <td>
-                                            id
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                        <td>
-                                            testing search
-                                        </td>
-                                    </tr>
                                 </tbody>
                             </table>
                             <!--end: Datatable -->

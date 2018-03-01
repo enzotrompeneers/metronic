@@ -20,14 +20,13 @@
                             <div class="m-portlet__head-caption">
                                 <div class="m-portlet__head-title">
                                     <h3 class="m-portlet__head-text">
-                                        Config
+                                        Jardines
                                     </h3>
                                 </div>
                             </div>
                         </div>
-
                         <!--begin::Form-->
-                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="nueva-pagina" action="#" method="get">
+                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="jardines" action="#" method="get">
                             <div class="m-portlet__body">
                                 <div class="m-form__content">
                                     <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
@@ -44,25 +43,32 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="clave" class="col-form-label col-lg-3 col-sm-12">
-                                        Clave
+                                    <label for="nombre-es" class="col-form-label col-lg-3 col-sm-12">
+                                        Nombre es
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
+                                        <input id="nombre-es" type="text" class="form-control m-input" name="nombre-es" placeholder="nombre es">
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="valor" class="col-form-label col-lg-3 col-sm-12">
-                                        Valor
+                                    <label for="nombre-en" class="col-form-label col-lg-3 col-sm-12">
+                                        Nombre en
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="valor" type="text" class="form-control m-input" name="valor" placeholder="valor">
+                                        <input id="nombre-en" type="text" class="form-control m-input" name="nombre-en" placeholder="nombre en">
                                     </div>
                                 </div>
 
+                                <div class="form-group m-form__group row">
+                                    <label for="nombre-nl" class="col-form-label col-lg-3 col-sm-12">
+                                        Nombre nl
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <input id="nombre-nl" type="text" class="form-control m-input" name="nombre-nl" placeholder="nombre nl">
+                                    </div>
+                                </div>
                             </div>
-
                             <div class="m-portlet__foot m-portlet__foot--fit">
                                 <div class="m-form__actions m-form__actions">
                                     <div class="row">
@@ -78,52 +84,52 @@
                                 </div>
                             </div>
                         </form>
-                        <!--end::Form-->
 
                         <div class="m-portlet__body">
-
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <?php include 'includes/search.php' ?>
-                                    <!--begin: Datatable -->
-                                    <table class="config-table" id="config-table" width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th title="id">
-                                                    Id
-                                                </th>
-                                                <th title="Clave">
-                                                    Clave
-                                                </th>
-                                                <th title="valor">
-                                                    Valor
-                                                </th>
-                                                <th title="comportamiento">
-                                                    Comportamiento
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php for ($i = 0, $max = 10; $i <= $max; $i++) { ?>
-                                                <tr>
-                                                    <td>
-                                                        id
-                                                    </td>
-                                                    <td>
-                                                        clave
-                                                    </td>
-                                                    <td>
-                                                        valor
-                                                    </td>
-                                                </tr>
-                                            <?php } ?>
-                                        </tbody>
-                                    </table>
-                                <!--end: Datatable -->
-                                </div>
-                            </div>
-                            <!--end::Portlet-->
+                            <?php include 'includes/search.php' ?>
+                            <!--begin: Datatable -->
+                            <table class="jardines-table" id="jardines-table" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th title="id">
+                                            Id
+                                        </th>
+                                        <th title="nombre es">
+                                            Nombre es
+                                        </th>
+                                        <th title="nombre en">
+                                            Nombre en
+                                        </th>
+                                        <th title="nombre nl">
+                                            Nombre nl
+                                        </th>
+                                        <th title="comportamiento">
+                                            Comportamiento
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <?php for ($i = 0, $max = 10; $i <= $max; $i++) { ?>
+                                        <tr>
+                                            <td>
+                                                id
+                                            </td>
+                                            <td>
+                                                nombre es
+                                            </td>
+                                            <td>
+                                                nombre en
+                                            </td>
+                                            <td>
+                                                nombre nl
+                                            </td>
+                                        </tr>
+                                    <?php } ?>
+                                </tbody>
+                            </table>
+                            <!--end: Datatable -->
                         </div>
+                        <!--end::Form-->
                     </div>
                     <!--end::Portlet-->
                 </div>

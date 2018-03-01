@@ -20,14 +20,14 @@
                             <div class="m-portlet__head-caption">
                                 <div class="m-portlet__head-title">
                                     <h3 class="m-portlet__head-text">
-                                        Config
+                                        Emails
                                     </h3>
                                 </div>
                             </div>
                         </div>
 
                         <!--begin::Form-->
-                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="nueva-pagina" action="#" method="get">
+                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="emails" action="#" method="get">
                             <div class="m-portlet__body">
                                 <div class="m-form__content">
                                     <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
@@ -53,11 +53,56 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="valor" class="col-form-label col-lg-3 col-sm-12">
-                                        Valor
+                                    <label for="asunto-es" class="col-form-label col-lg-3 col-sm-12">
+                                        Asunto es
                                     </label>
                                     <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="valor" type="text" class="form-control m-input" name="valor" placeholder="valor">
+                                        <input id="asunto-es" type="text" class="form-control m-input" name="asunto-es" placeholder="asunto es">
+                                    </div>
+                                </div>
+                                
+                                <div class="form-group m-form__group row">
+                                    <label for="asunto-en" class="col-form-label col-lg-3 col-sm-12">
+                                        Asunto en
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <input id="asunto-en" type="text" class="form-control m-input" name="asunto-en" placeholder="asunto es">
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label for="asunto-nl" class="col-form-label col-lg-3 col-sm-12">
+                                        Asunto nl
+                                    </label>
+                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                        <input id="asunto-nl" type="text" class="form-control m-input" name="asunto-nl" placeholder="asunto nl">
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Texto es
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="texto-es"></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Texto en
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="texto-en"></div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group m-form__group row">
+                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                        Texto nl
+                                    </label>
+                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                        <div class="summernote" name="texto-nl"></div>
                                     </div>
                                 </div>
 
@@ -86,17 +131,20 @@
                                 <div class="col-xl-12">
                                     <?php include 'includes/search.php' ?>
                                     <!--begin: Datatable -->
-                                    <table class="config-table" id="config-table" width="100%">
+                                    <table class="emails-table" id="emails-table" width="100%">
                                         <thead>
                                             <tr>
                                                 <th title="id">
                                                     Id
                                                 </th>
-                                                <th title="Clave">
-                                                    Clave
+                                                <th title="nombre es">
+                                                    Nombre es
                                                 </th>
-                                                <th title="valor">
-                                                    Valor
+                                                <th title="nombre en">
+                                                    Nombre en
+                                                </th>
+                                                <th title="nombre nl">
+                                                    Nombre nl
                                                 </th>
                                                 <th title="comportamiento">
                                                     Comportamiento
@@ -110,10 +158,13 @@
                                                         id
                                                     </td>
                                                     <td>
-                                                        clave
+                                                        nombre es
                                                     </td>
                                                     <td>
-                                                        valor
+                                                        nombre en
+                                                    </td>
+                                                    <td>
+                                                        nombre nl
                                                     </td>
                                                 </tr>
                                             <?php } ?>
