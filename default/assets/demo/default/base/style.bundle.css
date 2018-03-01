@@ -43,6 +43,12 @@ $table-inverse-color:           $body-bg !default;
 
  .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
+ .m-portlet.m-portlet--success.m-portlet--head-solid-bg .m-portlet__foot, .m-portlet.m-portlet--success.m-portlet--head-solid-bg .m-portlet__foot,
+ .m-portlet.m-portlet--accent.m-portlet--head-solid-bg .m-portlet__foot {
+   border-color: #ebedf2 !important;
+ }
+
+
 a.btn.btn-accent.m-btn.m-btn--icon.e-right {
   line-height: 30px;
   float: right;

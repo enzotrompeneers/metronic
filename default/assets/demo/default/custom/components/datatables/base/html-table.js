@@ -156,16 +156,16 @@ var DatatableHtmlTableDemo = function() {
                 </a>\
               ';
             }
-          },
+          }
         ],
       });
     };
   }
 
-  var traduccionesNuevo = function() {
-    if (document.getElementsByClassName('traducciones-nuevo')[0]) {
+  var traduccionesNueva = function() {
+    if (document.getElementsByClassName('traducciones-nueva')[0]) {
 
-      var datatable = $('.traducciones-nuevo').mDatatable({
+      var datatable = $('.traducciones-nueva').mDatatable({
         data: {
           saveState: {cookie: false},
           /* import json file to fill the database
@@ -236,19 +236,78 @@ var DatatableHtmlTableDemo = function() {
     };
   }
 
+  var configje = function() {
+    if (document.getElementsByClassName('config-table')[0]) {
+
+      var datatable = $('.config-table').mDatatable({
+        data: {
+          saveState: {cookie: false},
+          /* import json file to fill the database
+          type: 'remote',
+          source: {
+            read: {
+              url: 'http://server.com/table.php'
+            }
+          },
+          */ 
+        },
+        search: {
+          input: $('#generalSearch'),
+        },
+        columns: [
+          {
+            field: "Id",
+            title: "id",
+            width: 30,
+            textAlign: 'center',
+          },
+          {
+            field: "Clave",
+            title: "clave",
+            width: 100,
+          },
+          {
+            field: "Valor",
+            title: "valor",
+            width: 100,
+          },
+          {
+            field: "Comportamiento",
+            title: "comportamiento",
+            width: 130,
+            sortable: false,
+            textAlign: 'center',
+            overflow: 'visible',
+            template: function () {
+              return '\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill" title="Editar">\
+                  <i class="la la-edit"></i>\
+                </a>\
+                <a href="#" class="m-portlet__nav-link btn m-btn m-btn--hover-danger m-btn--icon m-btn--icon-only m-btn--pill" title="Borrar">\
+                  <i class="la la-trash"></i>\
+                </a>\
+              ';
+            }
+          }
+        ],
+      });
+    };
+  }
+
   return {
     //== Public functions
     init: function() {
       // init dmeo
       viviendas();
       tipos();
-      traduccionesNuevo();
+      traduccionesNueva();
+      configje();
     },
   };
 }();
 
-$("#traducciones-nuevo").click(function() {
-  $("#portlet-nuevo").toggle();
+$("#traducciones-nueva").click(function() {
+  $("#portlet-nueva").toggle();
   //$("#traducciones-nuevo").prop("disabled", true);
 });
 
