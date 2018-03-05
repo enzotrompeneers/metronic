@@ -171,13 +171,13 @@ id.keyup(function() {
 
 
 // begin: textarea chars left and warning
-var id_array = [
+var descr_names = [
     'es',
     'en',
     'nl',
 ];
 
-jQuery.each( id_array, function( i, val ) {
+jQuery.each( descr_names, function( i, val ) {
     var meta_id = "#meta-descr-" + val;
     var meta_feedback_id = meta_id + "-feedback";
 
@@ -191,20 +191,32 @@ jQuery.each( id_array, function( i, val ) {
             $(meta_feedback_id).removeClass( "warning-color");
         }
     });
-  });
+});
 // end: textarea chars left and warning
 
 // begin: create meta tags out of textarea input
-$('#meta-key-es').keypress(function(e){
-    if (String.fromCharCode( e.which ) == ",") {
-        var meta_tag_name = $('#meta-key-es').val();
-        $(".tags").append('<li><a href="#" class="tag">'+ meta_tag_name +'</a></li>');
-        
-        $('#meta-key-es').keyup( function() {
-            $('#meta-key-es').val('');
-        })
-        
-    }
+var meta_names = [
+    'es',
+    'en',
+    'nl'
+];
+
+jQuery.each( meta_names, function( i, val ) {
+    var meta_tag_name = "";
+    var meta_name = '#meta-key-' + val;
+    var btn_key = meta_name + '-btn';
+    var tag_name = meta_name + '-tag';
+
+    $(btn_key).click( function (e) {
+        e.preventDefault();
+        meta_tag_name = $(meta_name).val();
+        $(tag_name).append('<div type="button" class="btn btn-default tag">'+ meta_tag_name +' <i class="fa fa-close"></i></div>');
+        $(meta_name).val('');
+    })
+
+    $('body').on('click', 'i.fa-close', function() {
+        $(this).parent().remove();
+    } );
 });
 // end: create meta tags out of textarea input
   

@@ -156,7 +156,7 @@
 
                                 <div class="m-portlet__body">
                                     <div class="row">
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-5">
                                         <menu id="nestable-menu">
                                                 <button type="button" class="btn btn-primary m-btn  m-btn--icon" data-action="expand-all">
                                                     <i class="fa fa-expand"></i>
@@ -276,7 +276,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-6">
+                                        <div class="col-xl-7">
                                             <div id="portlet-editar" class="m-portlet m-portlet--accent m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" style="display: none;">
                                                 <div class="m-portlet__head">
                                                     <div class="m-portlet__head-caption">

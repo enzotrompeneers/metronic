@@ -14,31 +14,49 @@
                 </div>
             </div>
         </div>
-        
-        <div class="form-group row">
-            <label for="art-es" class="col-lg-12">
-                Art es
-            </label>
-            <div class="col-lg-12">
-                <div id="art-es" class="summernote" name="art-es"></div>
-            </div>
-        </div>
 
-        <div class="form-group row">
-            <label for="art-en" class="col-lg-12">
-                Art en
-            </label>
-            <div class="col-lg-12">
-                <div id="art-en" class="summernote" name="art-en"></div>
-            </div>
-        </div>
+        <ul class="nav nav-tabs m-tabs-line m-tabs-line--primary m-tabs-line--2x" role="tablist">
+            <li class="nav-item m-tabs__item">
+                <a class="nav-link m-tabs__link active" data-toggle="tab" href="#art-es" role="tab">
+                    <img src="../assets/app/media/img/icons/es.gif" alt="es">
+                    Art es
+                </a>
+            </li>
+            <li class="nav-item m-tabs__item">
+                <a class="nav-link m-tabs__link" data-toggle="tab" href="#art-en" role="tab">
+                    <img src="../assets/app/media/img/icons/en.gif" alt="es">
+                    Art en
+                </a>
+            </li>
+            <li class="nav-item m-tabs__item">
+                <a class="nav-link m-tabs__link" data-toggle="tab" href="#art-nl" role="tab">
+                    <img src="../assets/app/media/img/icons/nl.gif" alt="es">
+                    Art nl
+                </a>
+            </li>
+        </ul>
 
-        <div class="form-group row">
-            <label for="art-nl" class="col-lg-12">
-                Art nl
-            </label>
-            <div class="col-lg-12">
-                <div id="art-en" class="summernote" name="art-nl"></div>
+        <div class="tab-content">
+            <div class="tab-pane active" id="art-es" role="tabpanel">
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <div id="art-es" class="summernote" name="art-es"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="art-en" role="tabpanel">
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <div id="art-en" class="summernote" name="art-en"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="art-nl" role="tabpanel">
+                <div class="form-group row">
+                    <div class="col-lg-12">
+                        <div id="art-en" class="summernote" name="art-nl"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

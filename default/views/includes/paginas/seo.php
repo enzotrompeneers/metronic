@@ -77,14 +77,15 @@
                 Meta key es
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
-                <textarea class="form-control m-input" id="meta-key-es" rows="3"></textarea>
-                <div class="meta-keys">
-                <ul class="tags">
-                    <li><a href="#" class="tag">HTML</a></li>
-                    <li><a href="#" class="tag">CSS</a></li>
-                    <li><a href="#" class="tag">JavaScript</a></li>
-                </ul>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <input class="form-control m-input" id="meta-key-es"></input>
+                    </div>
+                    <div class="col-lg-5">
+                        <button id="meta-key-es-btn" class="btn btn-success pull-right">Nueva key</button>
+                    </div>
                 </div>
+                <div id="meta-key-es-tag" class="tags"></div>
             </div>
         </div>
 
@@ -93,7 +94,17 @@
                 Meta key en
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
-                <textarea class="form-control m-input" id="meta-key-en" rows="3"></textarea>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <input class="form-control m-input" id="meta-key-en"></input>
+                    </div>
+                    <div class="col-lg-5">
+                        <button id="meta-key-en-btn" class="btn btn-success pull-right">Nueva key</button>
+                    </div>
+                </div>
+                
+                
+                <div id="meta-key-en-tag" class="tags"></div>
             </div>
         </div>
 
@@ -102,7 +113,15 @@
                 Meta key nl
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
-                <textarea class="form-control m-input" id="meta-key-nl" rows="3"></textarea>
+                <div class="row">
+                    <div class="col-lg-7">
+                        <input class="form-control m-input" id="meta-key-nl"></input>
+                    </div>
+                    <div class="col-lg-5">
+                        <button id="meta-key-nl-btn" class="btn btn-success pull-right">Nueva key</button>
+                    </div>
+                </div>
+                <div id="meta-key-nl-tag" class="tags"></div>
             </div>
         </div>
     </div>
