@@ -70,9 +70,9 @@
             </div>
 
             <div class="row">
-                <!-- <div class="col-xl-8">
-                    <?php //include 'includes/dashboard/exclusive-datatable.php' ?>
-                </div> -->
+                <div class="col-xl-8">
+                    <?php include 'includes/dashboard/exclusive-datatable.php' ?>
+                </div>
 
                 <div class="col-xl-4">
                     <?php include 'includes/dashboard/audit.php' ?>

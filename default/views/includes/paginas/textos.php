@@ -16,29 +16,29 @@
         </div>
         
         <div class="form-group row">
-            <label class="col-lg-12">
+            <label for="art-es" class="col-lg-12">
                 Art es
             </label>
             <div class="col-lg-12">
-                <div class="summernote" name="art-es"></div>
+                <div id="art-es" class="summernote" name="art-es"></div>
             </div>
         </div>
 
         <div class="form-group row">
-            <label class="col-lg-12">
+            <label for="art-en" class="col-lg-12">
                 Art en
             </label>
             <div class="col-lg-12">
-                <div class="summernote" name="art-en"></div>
+                <div id="art-en" class="summernote" name="art-en"></div>
             </div>
         </div>
 
         <div class="form-group row">
-            <label class="col-lg-12">
+            <label for="art-nl" class="col-lg-12">
                 Art nl
             </label>
             <div class="col-lg-12">
-                <div class="summernote" name="art-nl"></div>
+                <div id="art-en" class="summernote" name="art-nl"></div>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
         <div class="m-form__actions m-form__actions">
             <div class="row">
                 <div class="col-lg-9 ml-lg-auto">
-                    <button type="submit" class="btn btn-success">
+                    <button type="submit" class="btn btn-success guardar">
                         Guardar
                     </button>
                     <button type="reset" class="btn btn-secondary">

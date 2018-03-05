@@ -117,7 +117,7 @@
                                             <div class="m-form__actions m-form__actions">
                                                 <div class="row">
                                                     <div class="col-lg-9 ml-lg-auto">
-                                                        <button type="submit" class="btn btn-success">
+                                                        <button type="submit" class="btn btn-success guardar">
                                                             Guardar
                                                         </button>
                                                         <button type="reset" class="btn btn-secondary">
@@ -173,7 +173,9 @@
                                                         <h1>Menu principal</h1>
                                                         <li class="dd-item" data-id="1">
                                                             <div class="dd-handle">
-                                                                <i class="fa fa-arrows"></i>
+                                                                <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                    <i class="fa fa-arrows"></i>
+                                                                </button>
                                                                 inicio
                                                                 <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                     <i class="fa fa-edit"></i>
@@ -184,7 +186,9 @@
 
                                                         <li class="dd-item" data-id="2">
                                                             <div class="dd-handle">
-                                                                <i class="fa fa-arrows"></i>
+                                                                <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                    <i class="fa fa-arrows"></i>
+                                                                </button>
                                                                 viviendas
                                                                 <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                     <i class="fa fa-edit"></i>
@@ -195,7 +199,9 @@
                                                             <ol class="dd-list">
                                                                 <li class="dd-item" data-id="3">
                                                                     <div class="dd-handle">
-                                                                        <i class="fa fa-arrows"></i>
+                                                                        <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                        </button>
                                                                         empresa
                                                                         <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                             <i class="fa fa-edit"></i>
@@ -206,7 +212,9 @@
 
                                                                 <li class="dd-item" data-id="4">
                                                                     <div class="dd-handle">
-                                                                        <i class="fa fa-arrows"></i>
+                                                                        <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                        </button>
                                                                         contacto
                                                                         <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                             <i class="fa fa-edit"></i>
@@ -217,7 +225,9 @@
 
                                                                 <li class="dd-item" data-id="5">
                                                                     <div class="dd-handle">
-                                                                        <i class="fa fa-arrows"></i>
+                                                                        <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                        </button>
                                                                         politica-privacidad
                                                                         <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                             <i class="fa fa-edit"></i>
@@ -228,7 +238,9 @@
 
                                                                 <li class="dd-item" data-id="6">
                                                                     <div class="dd-handle">
-                                                                        <i class="fa fa-arrows"></i>
+                                                                        <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                            <i class="fa fa-arrows"></i>
+                                                                        </button>
                                                                         aviso-legal
                                                                         <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                             <i class="fa fa-edit"></i>
@@ -241,7 +253,9 @@
 
                                                         <li class="dd-item" data-id="11">
                                                             <div class="dd-handle">
-                                                            <i class="fa fa-arrows"></i>
+                                                                <button class="btn btn-accent m-btn  m-btn--icon e-left btn-move">
+                                                                    <i class="fa fa-arrows"></i>
+                                                                </button>
                                                             politica-cookies
                                                             <a href="#" class="btn btn-accent m-btn  m-btn--icon e-right pagina-editar">
                                                                 <i class="fa fa-edit"></i>

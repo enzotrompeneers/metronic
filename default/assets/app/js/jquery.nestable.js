@@ -35,7 +35,7 @@ if (document.getElementById("nestable-menu")) {
                 itemClass       : 'dd-item',
                 dragClass       : 'dd-dragel',
                 handleClass     : 'dd-handle',
-                faArrows       : 'fa-arrows',
+                faArrows       :  'btn-move',
                 collapsedClass  : 'dd-collapsed',
                 placeClass      : 'dd-placeholder',
                 noDragClass     : 'dd-nodrag',

@@ -19,7 +19,7 @@
             <label for="slug-es" class="col-form-label col-lg-3 col-sm-12">
                 Slug es
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12">
+            <div class="col-lg-9 col-md-9 col-sm-12">
                 <input id="slug-es" type="text" class="form-control m-input" name="slug-es" placeholder="slug es">
             </div>
         </div>
@@ -48,6 +48,7 @@
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <textarea class="form-control m-input" id="meta-descr-es" rows="3"></textarea>
+                <div id="meta-descr-es-feedback"></div>
             </div>
         </div>
 
@@ -57,6 +58,7 @@
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <textarea class="form-control m-input" id="meta-descr-en" rows="3"></textarea>
+                <div id="meta-descr-en-feedback"></div>
             </div>
         </div>
 
@@ -66,6 +68,7 @@
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <textarea class="form-control m-input" id="meta-descr-nl" rows="3"></textarea>
+                <div id="meta-descr-nl-feedback"></div>
             </div>
         </div>
 
@@ -75,6 +78,13 @@
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
                 <textarea class="form-control m-input" id="meta-key-es" rows="3"></textarea>
+                <div class="meta-keys">
+                <ul class="tags">
+                    <li><a href="#" class="tag">HTML</a></li>
+                    <li><a href="#" class="tag">CSS</a></li>
+                    <li><a href="#" class="tag">JavaScript</a></li>
+                </ul>
+                </div>
             </div>
         </div>
 
@@ -100,7 +110,7 @@
         <div class="m-form__actions m-form__actions">
             <div class="row">
                 <div class="col-lg-9 ml-lg-auto">
-                    <button type="submit" class="btn btn-success">
+                    <button type="submit" class="btn btn-success guardar">
                         Guardar
                     </button>
                     <button type="reset" class="btn btn-secondary">

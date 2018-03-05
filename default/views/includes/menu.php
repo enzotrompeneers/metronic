@@ -634,7 +634,7 @@ data-dropdown-toggle="click" data-dropdown-persistent="true" id="m_quicksearch" 
                 <div class="m-dropdown__wrapper">
                     <span class="m-dropdown__arrow m-dropdown__arrow--center"></span>
                     <div class="m-dropdown__inner">
-                        <div class="m-dropdown__header m--align-center" style="background: url(assets/app/media/img/misc/notification_bg.jpg); background-size: cover;">
+                        <div class="m-dropdown__header m--align-center" style="background: url(../assets/app/media/img/misc/notification_bg.jpg); background-size: cover;">
                             <span class="m-dropdown__header-title">
                                 9 New
                             </span>
@@ -843,7 +843,7 @@ data-dropdown-toggle="click" data-dropdown-persistent="true" id="m_quicksearch" 
                 <div class="m-dropdown__wrapper">
                     <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
                     <div class="m-dropdown__inner">
-                        <div class="m-dropdown__header m--align-center" style="background: url(assets/app/media/img/misc/quick_actions_bg.jpg); background-size: cover;">
+                        <div class="m-dropdown__header m--align-center" style="background: url(../assets/app/media/img/misc/quick_actions_bg.jpg); background-size: cover;">
                             <span class="m-dropdown__header-title">
                                 Quick Actions
                             </span>
@@ -857,29 +857,29 @@ data-dropdown-toggle="click" data-dropdown-persistent="true" id="m_quicksearch" 
                                     <div class="m-nav-grid m-nav-grid--skin-light">
                                         <div class="m-nav-grid__row">
                                             <a href="#" class="m-nav-grid__item">
-                                                <i class="m-nav-grid__icon flaticon-file"></i>
+                                                <i class="m-nav-grid__icon flaticon-placeholder"></i>
                                                 <span class="m-nav-grid__text">
-                                                    Generate Report
+                                                    Add property
                                                 </span>
                                             </a>
                                             <a href="#" class="m-nav-grid__item">
-                                                <i class="m-nav-grid__icon flaticon-time"></i>
+                                                <i class="m-nav-grid__icon flaticon-user-settings"></i>
                                                 <span class="m-nav-grid__text">
-                                                    Add New Event
+                                                    Add owner
                                                 </span>
                                             </a>
                                         </div>
                                         <div class="m-nav-grid__row">
                                             <a href="#" class="m-nav-grid__item">
-                                                <i class="m-nav-grid__icon flaticon-folder"></i>
+                                                <i class="m-nav-grid__icon flaticon-signs"></i>
                                                 <span class="m-nav-grid__text">
-                                                    Create New Task
+                                                    List properties
                                                 </span>
                                             </a>
                                             <a href="#" class="m-nav-grid__item">
-                                                <i class="m-nav-grid__icon flaticon-clipboard"></i>
+                                                <i class="m-nav-grid__icon flaticon-user-add"></i>
                                                 <span class="m-nav-grid__text">
-                                                    Completed Tasks
+                                                    Add client
                                                 </span>
                                             </a>
                                         </div>
@@ -902,7 +902,7 @@ data-dropdown-toggle="click" data-dropdown-persistent="true" id="m_quicksearch" 
                 <div class="m-dropdown__wrapper">
                     <span class="m-dropdown__arrow m-dropdown__arrow--right m-dropdown__arrow--adjust"></span>
                     <div class="m-dropdown__inner">
-                        <div class="m-dropdown__header m--align-center" style="background: url(assets/app/media/img/misc/user_profile_bg.jpg); background-size: cover;">
+                        <div class="m-dropdown__header m--align-center" style="background: url(../assets/app/media/img/misc/user_profile_bg.jpg); background-size: cover;">
                             <div class="m-card-user m-card-user--skin-dark">
                                 <div class="m-card-user__pic">
                                     <img src="./../assets/app/media/img/users/user4.jpg" class="m--img-rounded m--marginless" alt=""/>

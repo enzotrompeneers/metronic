@@ -699,6 +699,36 @@
 		<script src="./../assets/app/js/jquery.nestable.js" type="text/javascript"></script>
 		
 		<script src="./../assets/vendors/custom/show-map.js" type="text/javascript"></script>
+
+		<!-- <script>
+			$(document).ready(function(){
+				$('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+					localStorage.setItem('activeTab', $(e.target).attr('href'));
+				});
+				var activeTab = localStorage.getItem('activeTab');
+				if(activeTab){
+					$('#myTab a[href="' + activeTab + '"]').tab('show');
+				}
+
+				$('ul.m-menu__nav li').click(function() {
+					console.log('clicked');
+
+				});
+			});
+
+
+
+			$(function() {
+				$("li").click(function() {
+					// remove classes from all
+					$("li").removeClass("m-menu__item--active");
+					// add class to the one we clicked
+					$(this).addClass("m-menu__item--active");
+					console.log("do this ");
+				});
+				});
+		</script> -->
+
 	</body>
 	<!-- end::Body -->
 </html>

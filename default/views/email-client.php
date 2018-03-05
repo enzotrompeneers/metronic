@@ -20,7 +20,7 @@
                             <div class="m-portlet__head-caption">
                                 <div class="m-portlet__head-title">
                                     <h3 class="m-portlet__head-text">
-                                        Emails
+                                        Email client
                                     </h3>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                 <div class="m-form__actions m-form__actions">
                                     <div class="row">
                                         <div class="col-lg-9 ml-lg-auto">
-                                            <button type="submit" class="btn btn-success">
+                                            <button type="submit" class="btn btn-success enviar">
                                                 !enviar
                                             </button>
                                             <button type="reset" class="btn btn-secondary">

@@ -105,14 +105,13 @@
                                         <div class="summernote" name="texto-nl"></div>
                                     </div>
                                 </div>
-
                             </div>
 
                             <div class="m-portlet__foot m-portlet__foot--fit">
                                 <div class="m-form__actions m-form__actions">
                                     <div class="row">
                                         <div class="col-lg-9 ml-lg-auto">
-                                            <button type="submit" class="btn btn-success">
+                                            <button type="submit" class="btn btn-success guardar">
                                                 Guardar
                                             </button>
                                             <button type="reset" class="btn btn-secondary">

@@ -894,8 +894,6 @@ $(".pagina-editar").click(function() {
   //$("#traducciones-nuevo").prop("disabled", true);
 });
 
-
-
 jQuery(document).ready(function() {
   DatatableHtmlTableDemo.init();
 });

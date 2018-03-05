@@ -128,20 +128,20 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="titulo-en" class="col-form-label col-lg-3 col-sm-12">
+            <label for="link-en" class="col-form-label col-lg-3 col-sm-12">
                 Link en
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
-                <input id="titulo-en" type="text" class="form-control m-input" name="titulo-en" placeholder="link en">
+                <input id="link-en" type="text" class="form-control m-input" name="titulo-en" placeholder="link en">
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="titulo-nl" class="col-form-label col-lg-3 col-sm-12">
+            <label for="link-nl" class="col-form-label col-lg-3 col-sm-12">
                 Link nl
             </label>
             <div class="col-lg-9 col-md-9 col-sm-12">
-                <input id="titulo-nl" type="text" class="form-control m-input" name="titulo-nl" placeholder="link nl">
+                <input id="link-nl" type="text" class="form-control m-input" name="titulo-nl" placeholder="link nl">
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@
         <div class="m-form__actions m-form__actions">
             <div class="row">
                 <div class="col-lg-9 ml-lg-auto">
-                    <button type="submit" class="btn btn-success">
+                    <button type="submit" class="btn btn-success guardar">
                         Guardar
                     </button>
                     <button type="reset" class="btn btn-secondary">

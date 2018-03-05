@@ -88,7 +88,7 @@
     </div>
     <div class="m-portlet__body">
         <!--begin: Datatable -->
-        <div class="m_datatable" id="m_datatable_latest_orders"></div>
+        <!-- <div class="m_datatable" id="m_datatable_latest_orders"></div> -->
         <!--end: Datatable -->
     </div>
 </div>

@@ -44,11 +44,11 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label for="opciones" class="col-form-label col-lg-3 col-sm-12">
                 Opciones json
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
-                <textarea class="form-control m-input" id="opciones-json" rows="3" name="opciones-json" placeholder="Opciones json">[]</textarea>
+                <textarea id="opciones" class="form-control m-input" id="opciones-json" rows="3" name="opciones-json" placeholder="Opciones json">[]</textarea>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
         <div class="m-form__actions m-form__actions">
             <div class="row">
                 <div class="col-lg-9 ml-lg-auto">
-                    <button type="submit" class="btn btn-success">
+                    <button type="submit" class="btn btn-success guardar">
                         Guardar
                     </button>
                     <button type="reset" class="btn btn-secondary">

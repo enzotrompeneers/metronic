@@ -142,3 +142,69 @@ var FormControls = function () {
 jQuery(document).ready(function() {    
     FormControls.init();
 });
+
+
+
+// textarea
+var text_max = 160;
+var text_length = 0;
+var text_remaining = 0;
+var id = $('#meta-descr-en');
+var id_feedback = $('#meta-descr-en_feedback');
+
+id_feedback.html(text_length + '/' + text_max + ' caracteres');
+id.keyup(function() {
+    text_length = id.val().length;
+    if (text_length > text_max) {
+        id_feedback.html(text_length + '/' + text_max + ' caracteres');
+        id_feedback.addClass( "warning-color");
+    }
+
+    if (text_length <= text_max) {
+        text_remaining = text_max - text_length;
+        id_feedback.html(text_length + '/' + text_max + ' caracteres');
+        id_feedback.removeClass( "warning-color");
+
+    }
+});
+
+
+
+// begin: textarea chars left and warning
+var id_array = [
+    'es',
+    'en',
+    'nl',
+];
+
+jQuery.each( id_array, function( i, val ) {
+    var meta_id = "#meta-descr-" + val;
+    var meta_feedback_id = meta_id + "-feedback";
+
+    $(meta_feedback_id).html(text_length + '/' + text_max + ' caracteres');
+    $(meta_id).keyup(function() {
+        text_length = $(meta_id).val().length;
+        $(meta_feedback_id).html(text_length + '/' + text_max + ' caracteres');
+        if (text_length > text_max) {
+            $(meta_feedback_id).addClass( "warning-color");
+        } else {
+            $(meta_feedback_id).removeClass( "warning-color");
+        }
+    });
+  });
+// end: textarea chars left and warning
+
+// begin: create meta tags out of textarea input
+$('#meta-key-es').keypress(function(e){
+    if (String.fromCharCode( e.which ) == ",") {
+        var meta_tag_name = $('#meta-key-es').val();
+        $(".tags").append('<li><a href="#" class="tag">'+ meta_tag_name +'</a></li>');
+        
+        $('#meta-key-es').keyup( function() {
+            $('#meta-key-es').val('');
+        })
+        
+    }
+});
+// end: create meta tags out of textarea input
+  

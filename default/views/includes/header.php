@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>
-			Creativos | Dashboard
+			Encantado | Dashboard
 		</title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,7 @@
 		<link href="./../assets/vendors/base/vendors.bundle.css" rel="stylesheet" type="text/css" />
 		<link href="./../assets/demo/default/base/style.bundle.css" rel="stylesheet" type="text/css" />
 		<!--end::Base Styles -->
-		<link rel="shortcut icon" href="./../assets/demo/default/media/img/logo/favicon.ico" />
+		<link rel="shortcut icon" href="./../assets/demo/default/media/img/logo/favicon.png" />
 	</head>
 	<!-- end::Head -->
     <!-- end::Body -->
@@ -44,7 +44,9 @@
 								<div class="m-stack__item m-stack__item--middle m-brand__logo">
 									<a href="index.php" class="m-brand__logo-wrapper">
 										<img alt="encantado" src="./../assets/demo/default/media/img/logo/encantado.png"/>
+										<span class="encantado" style="color: white; text-decoration: none;">Encantado</span>
 									</a>
+
 								</div>
 								<div class="m-stack__item m-stack__item--middle m-brand__tools">
 									<!-- BEGIN: Left Aside Minimize Toggle -->

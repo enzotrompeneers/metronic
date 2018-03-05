@@ -132,34 +132,34 @@
                                                         <label for="clave" class="col-form-label col-lg-3 col-sm-12">
                                                             Clave
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
                                                             <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group m-form__group row">
                                                         <label for="es" class="col-form-label col-lg-3 col-sm-12">
-                                                            ES
+                                                            Es
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
                                                             <input id="es" type="text" class="form-control m-input" name="es" placeholder="es">
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group m-form__group row">
                                                         <label for="en" class="col-form-label col-lg-3 col-sm-12">
-                                                            EN
+                                                            En
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
                                                             <input id="en" type="text" class="form-control m-input" name="en" placeholder="en">
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group m-form__group row">
                                                         <label for="nl" class="col-form-label col-lg-3 col-sm-12">
-                                                            NL
+                                                            Nl
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
                                                             <input id="nl" type="text" class="form-control m-input" name="nl" placeholder="nl">
                                                         </div>
                                                     </div>
@@ -168,26 +168,26 @@
                                                         <label for="art-es" class="col-form-label col-lg-3 col-sm-12">
                                                             Art es
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
-                                                            <input id="art-es" type="textarea" class="form-control m-input" name="art-es" placeholder="art es">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
+                                                            <textarea id="art-es" class="form-control m-input" rows="3" name="art-es" placeholder="art es"></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group m-form__group row">
-                                                        <label for="art-es" class="col-form-label col-lg-3 col-sm-12">
+                                                        <label for="art-en" class="col-form-label col-lg-3 col-sm-12">
                                                             Art en
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
-                                                            <input id="art-en" type="text" class="form-control m-input" name="art en" placeholder="art-en">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
+                                                        <textarea id="art-en" class="form-control m-input" rows="3" name="art-en" placeholder="art en"></textarea>
                                                         </div>
                                                     </div>
 
                                                     <div class="form-group m-form__group row">
-                                                        <label for="art-es" class="col-form-label col-lg-3 col-sm-12">
+                                                        <label for="art-nl" class="col-form-label col-lg-3 col-sm-12">
                                                             Art nl
                                                         </label>
-                                                        <div class="col-lg-4 col-md-9 col-sm-12">
-                                                            <input id="art-nl" type="text" class="form-control m-input" name="art-nl" placeholder="art nl">
+                                                        <div class="col-lg-9 col-md-9 col-sm-12">
+                                                        <textarea id="art-nl" class="form-control m-input" rows="3" name="art-nl" placeholder="art nl"></textarea>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -196,7 +196,7 @@
                                                     <div class="m-form__actions m-form__actions">
                                                         <div class="row">
                                                             <div class="col-lg-9 ml-lg-auto">
-                                                                <button type="submit" class="btn btn-success">
+                                                                <button type="submit" class="btn btn-success guardar">
                                                                     Guardar
                                                                 </button>
                                                                 <button type="reset" class="btn btn-secondary">
