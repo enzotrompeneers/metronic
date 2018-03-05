@@ -13,13 +13,11 @@
                     <button type="button" class="close" data-close="alert" aria-label="Close"></button>
                 </div>
             </div>
+            </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
-                Cargar imagenes
-            </label>
-            <div class="col-lg-9 col-md-9 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="upload-image">
                     <div class="m-dropzone__msg dz-message needsclick">
                         <h3 class="m-dropzone__msg-title">

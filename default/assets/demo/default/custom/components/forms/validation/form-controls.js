@@ -219,4 +219,3 @@ jQuery.each( meta_names, function( i, val ) {
     } );
 });
 // end: create meta tags out of textarea input
-  

@@ -84,16 +84,16 @@ var SweetAlert2Demo = function() {
 
         $('#m_sweetalert_demo_8').click(function(e) {
             swal({
-                title: 'Are you sure?',
-                text: "You won't be able to revert this!",
+                title: '¿Estás seguro?',
+                text: "¡No podrás revertir esto!",
                 type: 'warning',
                 showCancelButton: true,
-                confirmButtonText: 'Yes, delete it!'
+                confirmButtonText: 'Borrar pagina'
             }).then(function(result) {
                 if (result.value) {
                     swal(
-                        'Deleted!',
-                        'Your file has been deleted.',
+                        'página eliminada',
+                        '',
                         'success'
                     )
                 }

@@ -685,20 +685,21 @@
     		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBGVDv5fOFgfW4ixNZL_2krgkriGu6vvc&callback=initMap&libraries=places">
 		</script>
 		-->
-		<script src="./../assets/vendors/base/vendors.bundle.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/base/scripts.bundle.js" type="text/javascript"></script>
-		<script src="./../assets/vendors/custom/fullcalendar/fullcalendar.bundle.js" type="text/javascript"></script>
-		<script src="./../assets/app/js/dashboard.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/validation/form-controls.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/widgets/bootstrap-select.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/widgets/nouislider.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/widgets/summernote.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/widgets/dropzone.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/datatables/base/html-table.js" type="text/javascript"></script>
-		<script src="./../assets/demo/default/custom/components/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
-		<script src="./../assets/app/js/jquery.nestable.js" type="text/javascript"></script>
-		
-		<script src="./../assets/vendors/custom/show-map.js" type="text/javascript"></script>
+		<script src="./../assets/vendors/base/vendors.bundle.js"></script>
+		<script src="./../assets/demo/default/base/scripts.bundle.js"></script>
+		<script src="./../assets/vendors/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<script src="./../assets/app/js/dashboard.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/validation/form-controls.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/widgets/bootstrap-select.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/widgets/nouislider.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/widgets/summernote.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/widgets/dropzone.js"></script>
+		<script src="./../assets/demo/default/custom/components/datatables/base/html-table.js"></script>
+		<script src="./../assets/demo/default/custom/components/forms/widgets/bootstrap-datepicker.js"></script>
+		<script src="./../assets/app/js/jquery.nestable.js"></script>
+		<script src="./../assets/demo/default/custom/components/base/sweetalert2.js" type="text/javascript"></script>
+
+		<script src="./../assets/vendors/custom/show-map.js"></script>
 
 		<!-- <script>
 			$(document).ready(function(){

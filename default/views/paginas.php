@@ -342,18 +342,20 @@
                                                         <div class="tab-pane" id="documentos" role="tabpanel">
                                                             <?php include 'includes/paginas/documentos.php' ?>
                                                         </div>
-
-                                                        <a href="#" class="btn btn-danger m-btn  m-btn--icon e-right pagina-editar">
-                                                            <i class="fa fa-trash"></i>
-                                                            Borrar pagina
-                                                        </a>
                                                     </div>
+                                                </div>
+
+                                                <div class="m-portlet__foot m-portlet__foot--fit pull-right">
+
+                                                    <button type="button" class="btn btn-danger" id="m_sweetalert_demo_8">
+                                                        <i class="fa fa-trash"></i>
+                                                        Borrar pagina
+                                                    </button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                </div>
+                                </div>  
                             </div>
                             <!--end::Portlet-->
                         </div>
@@ -365,5 +367,6 @@
     </div>
 </div>
 <!-- end:: Body -->
+
 
 <?php include 'includes/footer.php' ?>
