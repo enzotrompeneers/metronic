@@ -67,19 +67,22 @@
                                             </div>
 
                                             <div class="form-group m-form__group row">
-                                                <label for="pagina" class="col-form-label col-lg-3 col-sm-12">
+                                                <label for="pagina" class="col-form-label col-12 col-sm-3">
                                                     Nueva pagina
                                                 </label>
-                                                <div class="col-lg-4 col-md-9 col-sm-12">
-                                                    <input id="pagina" type="text" class="form-control m-input" name="pagina" placeholder="nueva pagina">
+                                                <div class="input-group col-12 col-sm-9 col-xl-4">
+                                                    <input id="pagina" type="text" class="form-control m-input" name="pagina" placeholder="nueva pagina" aria-describedby="basic-addon2">
+                                                    <span class="input-group-addon" id="basic-addon2">
+                                                    <i class="la la-plus"></i>
+                                                </span>
                                                 </div>
                                             </div>
 
                                             <div class="form-group m-form__group row">
-                                                <label class="col-form-label col-lg-3 col-sm-12">
+                                                <label class="col-form-label col-12 col-sm-3">
                                                     Clase
                                                 </label>
-                                                <div class="col-lg-4 col-md-9 col-sm-12">
+                                                <div class="col-12 col-sm-9 col-xl-4">
                                                     <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" name="clase">
                                                         <option value="ninguno">
                                                             Ninguno
@@ -156,8 +159,8 @@
 
                                 <div class="m-portlet__body">
                                     <div class="row">
-                                        <div class="col-xl-5">
-                                        <menu id="nestable-menu">
+                                        <div class="col-12 col-xl-5">
+                                            <menu id="nestable-menu">
                                                 <button type="button" class="btn btn-primary m-btn  m-btn--icon" data-action="expand-all">
                                                     <i class="fa fa-expand"></i>
                                                     Expand All
@@ -276,7 +279,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-xl-7">
+                                        <div class="col-12 col-xl-7">
                                             <div id="portlet-editar" class="m-portlet m-portlet--accent m-portlet--head-solid-bg m-portlet--head-sm" data-portlet="true" style="display: none;">
                                                 <div class="m-portlet__head">
                                                     <div class="m-portlet__head-caption">
@@ -346,7 +349,6 @@
                                                 </div>
 
                                                 <div class="m-portlet__foot m-portlet__foot--fit pull-right">
-
                                                     <button type="button" class="btn btn-danger" id="m_sweetalert_demo_8">
                                                         <i class="fa fa-trash"></i>
                                                         Borrar pagina

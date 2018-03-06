@@ -44,10 +44,10 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Idioma
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9 col-xl-4">
                                         <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" name="ideoma">
                                             <option value="es">
                                                 Es
@@ -63,11 +63,11 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         !vivienda
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" name="vivienda">
+                                    <div class="col-12 col-sm-6 col-xl-4">
+                                        <select class="form-control m-bootstrap-select m_selectpicker" data-live-search="true" name="clase">
                                             <option value="test">
                                                 Test -
                                             </option>
@@ -80,7 +80,7 @@
                                         </select>
                                     </div>
                                     
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <div class="input-group col-12 col-sm-3">
                                         <a href="#" class="btn btn-success m-btn m-btn--icon">
                                             <span>
                                                 <i class="fa fa-plus"></i>
@@ -93,13 +93,16 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="email" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="email" class="col-form-label col-12 col-sm-3">
                                         Email
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="email" type="text" class="form-control m-input" name="email" placeholder="email">
+                                    <div class="input-group col-12 col-sm-6 col-xl-4">
+                                        <input id="email" type="text" class="form-control m-input" name="email" placeholder="email" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-envelope"></i>
+                                        </span>
                                     </div>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                    <div class="input-group col-12 col-sm-3">
                                         <a href="#" class="btn btn-success m-btn m-btn--icon">
                                             <span>
                                                 <i class="fa fa-plus"></i>
@@ -112,19 +115,22 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="asunto" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="asunto" class="col-form-label col-12 col-sm-3">
                                         Asunto
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="asunto" type="text" class="form-control m-input" name="asunto" placeholder="asunto">
+                                    <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="asunto" type="text" class="form-control m-input" name="asunto" placeholder="asunto" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-institution"></i>
+                                        </span>
                                     </div>
                                 </div>
                                 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Mensaje
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9">
                                         <div class="summernote" name="mensaje"></div>
                                     </div>
                                 </div>

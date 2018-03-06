@@ -43,55 +43,67 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="clave" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="clave" class="col-form-label col-12 col-sm-3">
                                         Clave
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-key"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="nombre" class="col-form-label col-12 col-sm-3">
                                         Nombre
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre" type="text" class="form-control m-input" name="nombre" placeholder="nombre">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="nombre" type="text" class="form-control m-input" name="nombre" placeholder="nombre" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-user"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="email" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="email" class="col-form-label col-12 col-sm-3">
                                         Email
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="email" type="text" class="form-control m-input" name="email" placeholder="email">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="email" type="text" class="form-control m-input" name="email" placeholder="email" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-envelope"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="telefono" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="telefono" class="col-form-label col-12 col-sm-3">
                                         Telefono
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="telefono" type="text" class="form-control m-input" name="telefono" placeholder="telefono">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="telefono" type="text" class="form-control m-input" name="telefono" placeholder="telefono" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-phone"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Mensaje
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9">
                                         <div class="summernote" name="mensaje"></div>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Fecha
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
                                         <div class='input-group date' id='m_datepicker'>
                                             <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha" placeholder="fecha"/>
                                             <span class="input-group-addon">
@@ -102,28 +114,31 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="ip" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="ip" class="col-form-label col-12 col-sm-3">
                                         Ip
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="ip" type="text" class="form-control m-input" name="ip" placeholder="ip">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="ip" type="text" class="form-control m-input" name="ip" placeholder="ip" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-info-circle"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Header
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9">
                                         <div class="summernote" name="header"></div>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Email completo
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9">
                                         <div class="summernote" name="email-completo"></div>
                                     </div>
                                 </div>

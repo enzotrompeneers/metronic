@@ -43,29 +43,38 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-es" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="nombre-es" class="col-form-label col-12 col-sm-3">
                                         Nombre es
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-es" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre es">
+                                    <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="nombre-es" type="text" class="form-control m-input" name="nombre-es" placeholder="nombre es" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-user"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-en" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="nombre-en" class="col-form-label col-12 col-sm-3">
                                         Nombre en
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-en" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre en">
+                                    <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="nombre-en" type="text" class="form-control m-input" name="nombre-en" placeholder="nombre en" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-user"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre-nl" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="nombre-nl" class="col-form-label col-12 col-sm-3">
                                         Nombre nl
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre-nl" type="text" class="form-control m-input" name="nombre-es" placeholder="Nombre nl">
+                                    <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="nombre-nl" type="text" class="form-control m-input" name="nombre-nl" placeholder="nombre nl" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-user"></i>
+                                        </span>
                                     </div>
                                 </div>
                             </div>

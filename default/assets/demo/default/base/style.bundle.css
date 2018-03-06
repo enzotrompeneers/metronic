@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+.small-margin {
+  margin-bottom: 10px;
+}
+.medium-margin {
+  margin-bottom: 30px;
+}
 #meta-key-es {
   margin-bottom: 5px;
 }

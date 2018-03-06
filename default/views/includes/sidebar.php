@@ -97,6 +97,14 @@
                                 </span>
                             </a>
                         </li>
+                        <li class="m-menu__item " aria-haspopup="true" >
+                            <a  href="config-old.php" class="m-menu__link ">
+                                <i class="m-menu__ver-arrow fa fa-gears"></i>
+                                <span class="m-menu__link-text">
+                                    Config (old)
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </li>

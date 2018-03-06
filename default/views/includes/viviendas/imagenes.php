@@ -20,7 +20,7 @@
                 Cargar imagen
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
-                <div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="upload-image">
+                <div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-three">
                     <div class="m-dropzone__msg dz-message needsclick">
                         <h3 class="m-dropzone__msg-title">
                             Suelta los archivos aquí o haz clic para cargarlos.

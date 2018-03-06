@@ -43,11 +43,14 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="nombre" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="nombre" class="col-form-label col-12 col-sm-3">
                                         Nombre
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="nombre" type="text" class="form-control m-input" name="nombre" placeholder="nombre">
+                                    <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="nombre" type="text" class="form-control m-input" name="nombre" placeholder="nombre" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-user"></i>
+                                        </span>
                                     </div>
                                 </div>
                             </div>

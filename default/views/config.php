@@ -20,109 +20,56 @@
                             <div class="m-portlet__head-caption">
                                 <div class="m-portlet__head-title">
                                     <h3 class="m-portlet__head-text">
-                                        Config
+                                        Config 
                                     </h3>
                                 </div>
                             </div>
                         </div>
 
-                        <!--begin::Form-->
-                        <form class="m-form m-form--state m-form--fit m-form--label-align-right" id="nueva-pagina" action="#" method="get">
-                            <div class="m-portlet__body">
-                                <div class="m-form__content">
-                                    <div class="m-alert m-alert--icon alert alert-warning m--hide" role="alert" id="m_form_2_msg">
-                                        <div class="m-alert__icon">
-                                            <i class="la la-warning"></i>
-                                        </div>
-                                        <div class="m-alert__text">
-                                            mensaje de error!
-                                        </div>
-                                        <div class="m-alert__close">
-                                            <button type="button" class="close" data-close="alert" aria-label="Close"></button>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="form-group m-form__group row">
-                                    <label for="clave" class="col-form-label col-lg-3 col-sm-12">
-                                        Clave
-                                    </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
-                                    </div>
-                                </div>
-
-                                <div class="form-group m-form__group row">
-                                    <label for="valor" class="col-form-label col-lg-3 col-sm-12">
-                                        Valor
-                                    </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="valor" type="text" class="form-control m-input" name="valor" placeholder="valor">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <div class="m-portlet__foot m-portlet__foot--fit">
-                                <div class="m-form__actions m-form__actions">
-                                    <div class="row">
-                                        <div class="col-lg-9 ml-lg-auto">
-                                            <button type="submit" class="btn btn-success guardar">
-                                                Guardar
-                                            </button>
-                                            <button type="reset" class="btn btn-secondary">
-                                                Cancelar
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <!--end::Form-->
-
                         <div class="m-portlet__body">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#principal">
+                                        Principal
+                                    </a>
+                                </li>
+                            
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#viviendas">
+                                        Viviendas
+                                    </a>
+                                </li>
 
-                            <div class="row">
-                                <div class="col-xl-12">
-                                    <?php include 'includes/search.php' ?>
-                                    <!--begin: Datatable -->
-                                    <table class="config-table" id="config-table" width="100%">
-                                        <thead>
-                                            <tr>
-                                                <th title="id">
-                                                    Id
-                                                </th>
-                                                <th title="Clave">
-                                                    Clave
-                                                </th>
-                                                <th title="valor">
-                                                    Valor
-                                                </th>
-                                                <th title="comportamiento">
-                                                    Comportamiento
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <?php for ($i = 0, $max = 10; $i <= $max; $i++) { ?>
-                                                <tr>
-                                                    <td>
-                                                        id
-                                                    </td>
-                                                    <td>
-                                                        clave
-                                                    </td>
-                                                    <td>
-                                                        valor
-                                                    </td>
-                                                </tr>
-                                            <?php } ?>
-                                        </tbody>
-                                    </table>
-                                <!--end: Datatable -->
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#medio-social">
+                                        Medio Social
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#lugar">
+                                        Lugar
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="principal" role="tabpanel">
+                                   <?php include 'includes/config/principal.php' ?>
+                                </div>
+
+                                <div class="tab-pane" id="viviendas" role="tabpanel">
+                                    <?php include 'includes/config/viviendas.php' ?>
+                                </div>
+
+                                <div class="tab-pane" id="medio-social" role="tabpanel">
+                                    <?php include 'includes/config/medio-social.php' ?>
+                                </div>
+
+                                <div class="tab-pane" id="lugar" role="tabpanel">
+                                    <?php include 'includes/config/lugar.php' ?>
                                 </div>
                             </div>
-                            <!--end::Portlet-->
                         </div>
                     </div>
                     <!--end::Portlet-->

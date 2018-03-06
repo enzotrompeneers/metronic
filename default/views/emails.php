@@ -44,64 +44,76 @@
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="clave" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="clave" class="col-form-label col-12 col-sm-3">
                                         Clave
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="clave" type="text" class="form-control m-input" name="clave" placeholder="clave" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-key"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="asunto-es" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="asunto-es" class="col-form-label col-12 col-sm-3">
                                         Asunto es
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="asunto-es" type="text" class="form-control m-input" name="asunto-es" placeholder="asunto es">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="asunto-es" type="text" class="form-control m-input" name="asunto-es" placeholder="asunto es" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-institution"></i>
+                                        </span>
                                     </div>
                                 </div>
                                 
                                 <div class="form-group m-form__group row">
-                                    <label for="asunto-en" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="asunto-en" class="col-form-label col-12 col-sm-3">
                                         Asunto en
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="asunto-en" type="text" class="form-control m-input" name="asunto-en" placeholder="asunto es">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="asunto-en" type="text" class="form-control m-input" name="asunto-en" placeholder="asunto es" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-institution"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label for="asunto-nl" class="col-form-label col-lg-3 col-sm-12">
+                                    <label for="asunto-nl" class="col-form-label col-12 col-sm-3">
                                         Asunto nl
                                     </label>
-                                    <div class="col-lg-4 col-md-9 col-sm-12">
-                                        <input id="asunto-nl" type="text" class="form-control m-input" name="asunto-nl" placeholder="asunto nl">
+                                   <div class="input-group col-12 col-sm-9 col-xl-4">
+                                        <input id="asunto-nl" type="text" class="form-control m-input" name="asunto-nl" placeholder="asunto nl" aria-describedby="basic-addon2">
+                                        <span class="input-group-addon" id="basic-addon2">
+                                            <i class="la la-institution"></i>
+                                        </span>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Texto es
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                    <div class="col-12 col-sm-9">
                                         <div class="summernote" name="texto-es"></div>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Texto en
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                     <div class="col-12 col-sm-9">
                                         <div class="summernote" name="texto-en"></div>
                                     </div>
                                 </div>
 
                                 <div class="form-group m-form__group row">
-                                    <label class="col-form-label col-lg-3 col-sm-12">
+                                    <label class="col-form-label col-12 col-sm-3">
                                         Texto nl
                                     </label>
-                                    <div class="col-lg-8 col-md-9 col-sm-12">
+                                     <div class="col-12 col-sm-9">
                                         <div class="summernote" name="texto-nl"></div>
                                     </div>
                                 </div>

@@ -29,40 +29,38 @@
                         <div class="m-portlet__body">
                             <!--begin::Portlet-->
                             <div class="row">
-                                <div class="col-xl-12">
-                                    <div class="row">
-                                        <div class="col-xl-2">
-                                            <button id="traducciones-nueva" type="button" class="btn btn-success m-btn  m-btn--icon">
-                                                <span>
-                                                    <i class="la la-plus"></i>
-                                                    <span>
-                                                        Nueva clave
-                                                    </span>
-                                                </span>
-                                            </button>
-                                        </div>
-
-                                        <div class="col-xl-4 text-right upload-download">
-                                            <label id="import-csv" for="file-upload" class="btn btn-primary m-btn  m-btn--icon">
-                                                <i class="la la-upload"></i>
-                                                Importar csv
-                                            </label>
-                                            <input id="file-upload" type="file" accept=".csv"/>
-
-                                            <button id="export-csv" type="button" class="btn btn-primary m-btn  m-btn--icon">
-                                                <i class="la la-download"></i>
-                                                Exportar csv
-                                            </button>
-                                        </div>
-                                        <div class="col-xl-12">
-                                            <?php include 'includes/search.php' ?>
-                                        </div>
-                                    </div>
+                                <div class="col-12 text-right small-margin">
+                                    <button id="traducciones-nueva" type="button" class="btn btn-success m-btn  m-btn--icon">
+                                        <span>
+                                            <i class="la la-plus"></i>
+                                            <span>
+                                                Nueva clave
+                                            </span>
+                                        </span>
+                                    </button>
                                 </div>
                             </div>
 
                             <div class="row">
-                                <div class="col-xl-6">
+                                <div class="col-12 text-right upload-download">
+                                    <label id="import-csv" for="file-upload" class="btn btn-primary m-btn  m-btn--icon">
+                                        <i class="la la-upload"></i>
+                                        Importar csv
+                                    </label>
+                                    <input id="file-upload" type="file" accept=".csv"/>
+
+                                    <button id="export-csv" type="button" class="btn btn-primary m-btn  m-btn--icon">
+                                        <i class="la la-download"></i>
+                                        Exportar csv
+                                    </button>
+                                </div>
+                                <div class="col-xl-12">
+                                    <?php include 'includes/search.php' ?>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-6 medium-margin">
                                     <!--begin: Datatable -->
                                     <table class="traducciones-nueva" id="traducionnes-neuvo-table" width="100%">
                                         <thead>
