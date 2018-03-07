@@ -18,10 +18,8 @@
         <div class="m-form m-form--label-align-right m--margin-top-20 m--margin-bottom-30">
             <div class="row align-items-center">
                 <div class="col-12">
-                    
-
                     <div class="form-group m-form__group row align-items-center">
-                        <div class="col-lg-3 col-sm-12">
+                        <div class="col-12 col-sm-3">
                             <div class="m-input-icon m-input-icon--left">
                                 <input type="text" class="form-control m-input m-input--solid" placeholder="Buscar..." id="pac-input">
                                 <span class="m-input-icon__icon m-input-icon__icon--left">
@@ -33,42 +31,37 @@
                         </div>
                     </div>
 
+                    <div class="form-group m-form__group row">
+                        <label class="col-form-label col-12 col-sm-1">
+                            Zoom
+                        </label>
+                        <div class="col-12 col-sm-3">
+                            <input type="text" class="form-control m-input" id="zoom" name="zoom" placeholder="Zoom">
+                        </div>
+  
+                        <label class="col-form-label col-12 col-sm-1">
+                            Lat
+                        </label>
+                        <div class="col-12 col-sm-3">
+                            <input type="text" class="form-control m-input" id="lat" name="lat" placeholder="Lat">
+                        </div>
+
+                        <label class="col-form-label col-12 col-sm-1">
+                            Lon
+                        </label>
+                        <div class="col-12 col-sm-3">
+                            <input type="text" class="form-control m-input" id="lon" name="lon" placeholder="Lon">
+                        </div>
+                    </div>
+
                     <div class="form-group m-form__group row align-items-center">
                         <div class="col-12">
                             <div id="mymap"></div>
                         </div>
                     </div>
-
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-lg-3 col-sm-12">
-                            Lat
-                        </label>
-                        <div class="col-lg-4 col-md-9 col-sm-12">
-                            <input type="text" class="form-control m-input" id="lat" name="lat" placeholder="Lat">
-                        </div>
-                    </div>
-
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-lg-3 col-sm-12">
-                            Lon
-                        </label>
-                        <div class="col-lg-4 col-md-9 col-sm-12">
-                            <input type="text" class="form-control m-input" id="lon" name="lon" placeholder="Lon">
-                        </div>
-                    </div>
-
-                    <div class="form-group m-form__group row">
-                        <label class="col-form-label col-lg-3 col-sm-12">
-                            Zoom
-                        </label>
-                        <div class="col-lg-4 col-md-9 col-sm-12">
-                            <input type="text" class="form-control m-input" id="zoom" name="zoom" placeholder="Zoom">
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        
     </div>
 
     <div class="m-portlet__foot m-portlet__foot--fit">

@@ -16,10 +16,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Barbacoa
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="barbacoa">
@@ -28,10 +28,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Aire acondicionado
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="aire-acondicionado">
@@ -40,10 +40,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Jacuzzi
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="jacuzzi">
@@ -52,10 +52,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Pre-aire acondicionado
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="pre-air-acondicionado">
@@ -64,10 +64,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Amueblado
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="amueblado">
@@ -76,10 +76,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Parcialmente amueblado
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="parcialmente-amueblado">
@@ -88,10 +88,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 No amueblado
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="no-amueblado">
@@ -100,10 +100,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Vestidor
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="vestidor">
@@ -112,10 +112,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Electrodomésticos
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="electrodomesticos">
@@ -124,10 +124,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Solarium
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="solarium">
@@ -136,10 +136,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Terraza
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="terraza">
@@ -148,10 +148,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Trastero
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="trastero">
@@ -160,10 +160,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Ascensor
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="ascensor">
@@ -172,10 +172,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Sótano
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="sotano">
@@ -184,10 +184,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Garaje
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="garaje">
@@ -196,10 +196,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Sauna
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="sauna">
@@ -208,10 +208,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Instalación satélite
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="instalacion-satelite">
@@ -220,10 +220,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Energía solar
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="energia-solar">
@@ -232,10 +232,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Calefacción central
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="calefaccion-central">
@@ -244,10 +244,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Sistema de alarma
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="sistema-de-alarma">
@@ -256,10 +256,10 @@
                 </span>
             </div>
 
-            <label class="col-2 col-form-label">
+            <label class="col-8 col-md-4 col-lg-3 col-form-label">
                 Chimenea
             </label>
-            <div class="col-1">
+            <div class="col-4 col-md-2 col-lg-1">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="chimenea">

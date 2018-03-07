@@ -16,10 +16,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Fecha creado
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9 col-xl-4">
                 <div class='input-group date' id='m_datepicker'>
                     <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha-creado" placeholder="fecha creado"/>
                     <span class="input-group-addon">
@@ -30,10 +30,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Fecha modificado
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9 col-xl-4">
                 <div class='input-group date' id='m_datepicker'>
                     <input id="m_datepicker_1" type='text' class="form-control m-input" readonly name="fecha-modificado" placeholder="fecha modificado"/>
                     <span class="input-group-addon">
@@ -44,10 +44,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="opciones" class="col-form-label col-lg-3 col-sm-12">
+            <label for="opciones" class="col-form-label col-12 col-sm-3">
                 Opciones json
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9 col-xl-4">
                 <textarea id="opciones" class="form-control m-input" id="opciones-json" rows="3" name="opciones-json" placeholder="Opciones json">[]</textarea>
             </div>
         </div>

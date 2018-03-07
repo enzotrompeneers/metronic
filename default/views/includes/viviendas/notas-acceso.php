@@ -16,90 +16,82 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="nombre" class="col-form-label col-lg-3 col-sm-12">
+            <label for="nombre" class="col-form-label col-12 col-sm-3">
                 Acceso nombre contacto
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                <input id="nombre" type="text" class="form-control m-input" name="acceso-nombre-contacto" placeholder="Acceso nombre contacto">
-                <span class="m-input-icon__icon m-input-icon__icon--left">
-                    <span>
-                        <i class="fa fa-user"></i>
-                    </span>
+            <div class="input-group col-12 col-sm-9 col-xl-4">
+                <input id="nombre" type="text" class="form-control m-input" name="acceso-nombre-contacto" placeholder="Acceso nombre contacto" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">
+                    <i class="la la-user"></i>
                 </span>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="telefono" class="col-form-label col-lg-3 col-sm-12">
+            <label for="telefono" class="col-form-label col-12 col-sm-3">
                 Acceso telefono contacto
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                <input id="telefono" type="text" class="form-control m-input" name="acceso-telefono-contacto" placeholder="Acceso telefono contacto">
-                <span class="m-input-icon__icon m-input-icon__icon--left">
-                    <span>
-                        <i class="fa fa-phone"></i>
-                    </span>
+            <div class="input-group col-12 col-sm-9 col-xl-4">
+                <input id="telefono" type="text" class="form-control m-input" name="acceso-telefono-contacto" placeholder="Acceso telefono contacto" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">
+                    <i class="la la-phone"></i>
                 </span>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="clave" class="col-form-label col-lg-3 col-sm-12">
+            <label for="clave" class="col-form-label col-12 col-sm-3">
                 Acceso referencia clave
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                <input id="clave" type="text" class="form-control m-input" name="acceso-referncia-clave" placeholder="Acceso referencia clave">
-                <span class="m-input-icon__icon m-input-icon__icon--left">
-                    <span>
-                        <i class="fa fa-key"></i>
-                    </span>
+            <div class="input-group col-12 col-sm-9 col-xl-4">
+                <input id="clave" type="text" class="form-control m-input" name="acceso-referncia-clave" placeholder="Acceso referencia clave" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">
+                    <i class="la la-key"></i>
                 </span>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="ubicacion" class="col-form-label col-lg-3 col-sm-12">
+            <label for="ubicacion" class="col-form-label col-12 col-sm-3">
                 Acceso ubicacion clave
             </label>
-            <div class="col-lg-4 col-md-9 col-sm-12 m-input-icon m-input-icon--left">
-                <input id="ubicacion" type="text" class="form-control m-input" name="acceso-ubicacion-clave" placeholder="Acceso ubicacion clave">
-                <span class="m-input-icon__icon m-input-icon__icon--left">
-                    <span>
-                        <i class="fa fa-key"></i>
-                    </span>
+            <div class="input-group col-12 col-sm-9 col-xl-4">
+                <input id="ubicacion" type="text" class="form-control m-input" name="acceso-ubicacion-clave" placeholder="Acceso ubicacion clave" aria-describedby="basic-addon2">
+                <span class="input-group-addon" id="basic-addon2">
+                    <i class="la la-key"></i>
                 </span>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Acceso notas
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="acceso-notas"></div>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Alarma notas
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="alarma-notas"></div>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Observaciones
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="observaciones"></div>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Id xml
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -108,7 +100,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Agente
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">

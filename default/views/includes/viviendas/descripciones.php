@@ -16,19 +16,19 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Descripcion en
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="descripcion-en"></div>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Descripcion nl
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="description-nl"></div>
             </div>
         </div>

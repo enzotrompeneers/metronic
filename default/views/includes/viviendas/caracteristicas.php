@@ -16,15 +16,15 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Dormitorios
             </label>
-            <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="col-12 col-sm-9 col-xl-4">
                 <div class="row align-items-center">
-                    <div class="col-3">
+                    <div class="col-4">
                         <input type="text" class="form-control" id="dormitorios_input"  placeholder="Nùmero" name="dormitorios" readonly disabled>
                     </div>
-                    <div class="col-6">
+                    <div class="col-8">
                         <div id="dormitorios" class="m-nouislider--drag-danger"></div>
                     </div>
                 </div>
@@ -32,15 +32,15 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Banos
             </label>
-            <div class="col-lg-9 col-md-12 col-sm-12">
+            <div class="col-12 col-sm-9 col-xl-4">
                 <div class="row align-items-center">
-                    <div class="col-3">
+                    <div class="col-4">
                         <input type="text" class="form-control" id="banos_input"  placeholder="Nùmero" name="banos" readonly disabled>
                     </div>
-                    <div class="col-6">
+                    <div class="col-8">
                         <div id="banos" class="m-nouislider--drag-danger"></div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Piscina
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -80,7 +80,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Jardin
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -109,7 +109,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Orientacion
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -153,7 +153,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Vista
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -179,7 +179,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Parking
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">

@@ -14,12 +14,12 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3">
+            <label class="col-8 col-md-4 col-form-label">
                 Visible
             </label>
-            <div class="col-lg-9">
+            <div class="col-4 col-md-2">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="visible">
@@ -28,10 +28,10 @@
                 </span>
             </div>
 
-            <label class="col-form-label col-lg-3">
+            <label class="col-8 col-md-4 col-form-label">
                 Vendido
             </label>
-            <div class="col-lg-9">
+            <div class="col-4 col-md-2">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="vendido">
@@ -40,10 +40,10 @@
                 </span>
             </div>
 
-            <label class="col-form-label col-lg-3">
+            <label class="col-8 col-md-4 col-form-label">
                 Reservado
             </label>
-            <div class="col-lg-9">
+            <div class="col-4 col-md-2">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="reservado">
@@ -52,22 +52,10 @@
                 </span>
             </div>
 
-            <label class="col-form-label col-lg-3">
-                Reservado
-            </label>
-            <div class="col-lg-9 col-sm-12">
-                <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
-                    <label>
-                        <input type="checkbox" checked="checked" name="reservado">
-                        <span></span>
-                    </label>
-                </span>
-            </div>
-
-            <label class="col-form-label col-lg-3">
+            <label class="col-8 col-md-4 col-form-label">
                 Destacado
             </label>
-            <div class="col-lg-9">
+            <div class="col-4 col-md-2">
                 <span class="m-switch m-switch--outline m-switch--icon m-switch--success">
                     <label>
                         <input type="checkbox" checked="checked" name="destacado">

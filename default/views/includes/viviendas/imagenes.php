@@ -16,10 +16,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
-                Cargar imagen
-            </label>
-            <div class="col-lg-4 col-md-9 col-sm-12">
+            <div class="col-12">
                 <div class="m-dropzone dropzone" action="inc/api/dropzone/upload.php" id="m-dropzone-three">
                     <div class="m-dropzone__msg dz-message needsclick">
                         <h3 class="m-dropzone__msg-title">

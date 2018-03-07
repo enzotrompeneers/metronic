@@ -16,10 +16,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="venta" class="col-form-label col-lg-3 col-sm-12">
+            <label for="venta" class="col-form-label col-12 col-sm-3">
                 Precio de venta
             </label>
-            <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+            <div class="input-group col-12 col-sm-9 col-xl-4">
                 <input id="venta" name="precio-de-venta" placeholder="precio de venta" type="text" class="form-control m-input" aria-describedby="basic-addon2">
                 <span class="input-group-addon" id="basic-addon2">
                     &euro;
@@ -28,10 +28,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="anterior" class="col-form-label col-lg-3 col-sm-12">
+            <label for="anterior" class="col-form-label col-12 col-sm-3">
                 Precio anterior
             </label>
-            <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+            <div class="input-group col-12 col-sm-9 col-xl-4">
                 <input id="anterior" name="precio-anterior" placeholder="precio anterior" type="text" class="form-control m-input" aria-describedby="basic-addon2">
                 <span class="input-group-addon" id="basic-addon2">
                     &euro;
@@ -40,10 +40,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="neto" class="col-form-label col-lg-3 col-sm-12">
+            <label for="neto" class="col-form-label col-12 col-sm-3">
                 Precio neto
             </label>
-            <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+            <div class="input-group col-12 col-sm-9 col-xl-4">
                 <input id="neto" name="precio-neto" placeholder="precio neto" type="text" class="form-control m-input" aria-describedby="basic-addon2">
                 <span class="input-group-addon" id="basic-addon2">
                     &euro;
@@ -52,7 +52,7 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Precio desde
             </label>
             <div class="col-lg-4 col-md-9 col-sm-12">
@@ -66,10 +66,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="comunidad" class="col-form-label col-lg-3 col-sm-12">
+            <label for="comunidad" class="col-form-label col-12 col-sm-3">
                 Gastos comunidad
             </label>
-            <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+            <div class="input-group col-12 col-sm-9 col-xl-4">
                 <input id="comunidad" name="gastos-comunidad" placeholder="gastos comunidad" type="text" class="form-control m-input" aria-describedby="basic-addon2">
                 <span class="input-group-addon" id="basic-addon2">
                     &euro;
@@ -78,10 +78,10 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label for="ibi" class="col-form-label col-lg-3 col-sm-12">
+            <label for="ibi" class="col-form-label col-12 col-sm-3">
                 Gastos ibi
             </label>
-            <div class="input-group col-lg-4 col-md-9 col-sm-12" >
+            <div class="input-group col-12 col-sm-9 col-xl-4">
                 <input id="ibi" name="gastos-ibi" placeholder="gastos ibi" type="text" class="form-control m-input" aria-describedby="basic-addon2">
                 <span class="input-group-addon" id="basic-addon2">
                     &euro;
@@ -90,19 +90,19 @@
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Precio historial
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="precio-historial"></div>
             </div>
         </div>
 
         <div class="form-group m-form__group row">
-            <label class="col-form-label col-lg-3 col-sm-12">
+            <label class="col-form-label col-12 col-sm-3">
                 Descripcion es
             </label>
-            <div class="col-lg-8 col-md-9 col-sm-12">
+            <div class="col-12 col-sm-9">
                 <div class="summernote" name="description-es"></div>
             </div>
         </div>
